@@ -1,0 +1,77 @@
+/** Shopify CDN: Minification failed
+
+Line 32:6 Unexpected "{"
+Line 32:7 Expected identifier but found "%"
+Line 34:4 Unexpected "{"
+Line 34:5 Expected identifier but found "%"
+Line 49:3 Expected identifier but found "{"
+
+**/
+  .relation-decoration-none:hover{
+    text-decoration: none;
+  }
+  .barra-c-general{
+    padding:0;
+  }
+
+  .ctiner-barra-aux a span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #fff;
+    font-family:lato;
+  }
+
+  .ctiner-barra-aux a img{
+    margin-right: 7px;
+  }
+
+  .white_separate_bar{
+    border-left: 1px solid white;
+      {% if section.settings.checkbox1 == false %}
+      display:none;
+    {% endif %}
+  }
+
+  .barra-c-desktop ul li a img{
+    margin: -4px 6px 0 0;
+  }
+   .barra-c-desktop ul li a span {
+          font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 12px;
+      color: #fff;
+    }
+
+  .{
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .reinstal-ico-prev{
+    background-image: url("/cdn/shop/t/714/assets/arrow-left.svg?v=1713880560") !important;
+    display: block!important;
+    width: 9px!important;
+    height: 45px!important;
+    z-index: 999999!important;
+    margin: -1px auto 0!important;
+        position: absolute;
+    left: 8px;
+  }
+
+  .reinstal-ico-next{
+    background-image: url(/cdn/shop/t/714/assets/arrow.svg?v=1713880600) !important;
+    display: block!important;
+    width: 9px!important;
+    height: 45px!important;
+    z-index: 999999!important;
+    transform: scale(.7)!important;
+    margin: -1px auto 0!important;
+        transform: rotate(180deg)!important;
+        position: absolute;
+    right: 8px;
+  }

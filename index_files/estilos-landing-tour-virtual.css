@@ -1,0 +1,113 @@
+/** Shopify CDN: Minification failed
+
+Line 69:114 Unexpected "3"
+
+**/
+/*Recorrido Virtual Jamar JDLR*/
+.banner-video-recorrido { margin-top: 90px; height: 470px; }
+
+.contenedor-texto-recorrido { text-align: center; margin-top: 70px; margin-bottom: 70px; padding: 0 120px; }
+
+h2.titulo-app-recorrido { font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 38px; line-height: 114.4%; text-align: center; color: #333333; margin-top: 190px; /*QUITAR CUANDO SE MUESTRE LA SECCION DE VIDEO*/ }
+
+p.texto-app-recorrido { font-family: Lato, sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 27px; text-align: center; color: #333333; }
+
+.app-recorrido-virtual { width: 853px; height: 480px; }
+
+.contenedor-contenido-texto-boton { margin: 70px 70px; text-align: center; }
+
+h2.titulo-seccion-doble-imagen { padding: 0 20px; font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 38px; line-height: 114.4%; text-align: center; color: #333333; }
+
+.contenedor-imagen-doble-recorrido { margin-bottom: 30px; }
+
+p.texto-seccion-imagen-doble { padding: 0 45px; margin-bottom: 35px; font-family: Lato, sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 27px; text-align: center; color: #333333; }
+
+a.boton-whats-seccion-doble-imagen { background-color: #404b5a; padding: 15px; border-radius: 5px; font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 27px; letter-spacing: 0.02em; color: #FFFFFF; }
+a.boton-whats-seccion-doble-imagen:hover { text-decoration: none; background-color: #f33 !important; }
+
+.contenedor-slide-imagen-doble-recorrido { margin-top: 70px; margin-bottom: 70px; }
+
+.contenedor-contenido-texto-boton-slide { margin: 140px 70px 70px 70px; text-align: center; }
+
+h2.titulo-seccion-doble-imagen-slide { padding: 0 20px; font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 38px; line-height: 114.4%; text-align: center; color: #333333; }
+
+p.texto-seccion-imagen-doble-slide { padding: 0 45px; margin-bottom: 35px; font-family: Lato, sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 27px; text-align: center; color: #333333; }
+
+a.boton-seccion-doble-imagen-slide { background-color: #404b5a; padding: 15px; border-radius: 5px; font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 27px; letter-spacing: 0.02em; color: #FFFFFF; }
+a.boton-seccion-doble-imagen-slide:hover { text-decoration: none; background-color: #f33 !important; }
+
+.slider-desktop-recorrido {	display: block; width: 100%; background-size: cover; background-position: center; }
+.slider-mobile-recorrido { display: none; width: 100%; background-size: cover; background-position: center; }
+
+.contenedor-imagen-formulario-recorrido { margin-top: 60px; margin-bottom: 90px; }
+.contenedor-formulario-recorrido-virtual { padding-right: 180px; margin-left: 70px; margin-top: 100px; }
+
+h2.titulo-formulario-recorrido-virtual { font-family: Lato, sans-serif; font-style: normal; font-weight: 500; font-size: 38px; line-height: 46px; color: #000000; }
+p.texto-formulario-recorrido-virtual { font-family: Lato, sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 23px; color: #000000; }
+
+input#NombreRecorrido::placeholder { color: #000; }
+input#EmailRecorrido::placeholder { color: #000; }
+
+.form-recorrido-virtual { width: 523px; height: 45px; /*background: #EDEDED;*/ border: 1px solid #000000; border-radius: 5px; color: #000 !important; }
+
+.btn.btn-dark.btn-form-recorrido { background-color: #404b5a; color: #fff; width: 127px; height: 48px; letter-spacing: 5px; text-transform: uppercase ;border-radius: 7px; font-family: Lato,sans-serif; }
+.btn.btn-dark.btn-form-recorrido:hover { text-decoration: none; background-color: #f33; }
+
+div#shopify-section-seccion-slide-imagen-doble { margin-top: -95px; }
+
+/*Fin Recorrido Virtual Jamar JDLR*/
+
+@media screen and (max-width: 768px) {
+  .banner-video-recorrido { margin-top: 94px; height: 320px; }
+}
+
+@media only screen and (max-width: 430px) {
+  .banner-video-recorrido { margin-top: 93px; height: 320px; }
+
+  .contenedor-texto-recorrido { padding: 0px 39px; }
+
+  h2.titulo-app-recorrido { font-size: 26px; margin-top: 130px; /*QUITAR CUANDO SE MUESTRE LA SECCION DE VIDEO*/ }3
+  
+  p.texto-app-recorrido { font-size: 14px; line-height: 22px; margin-bottom: 24px; }
+
+  .app-recorrido-virtual {  width: 351px; height: 440px; }
+
+  .contenedor-contenido-texto-boton { margin: 45px 0; }
+
+  h2.titulo-seccion-doble-imagen { padding: 0 10px; font-size: 26px; }
+
+  .contenedor-imagen-doble-recorrido { margin-bottom: 0; }
+  
+  p.texto-seccion-imagen-doble { font-size: 14px; line-height: 21px; }
+
+  .contenedor-slide-imagen-doble-recorrido { margin-top: 0; margin-bottom: 0; }
+
+  .contenedor-contenido-texto-boton-slide { margin: 40px 10px 70px 10px; }
+
+  h2.titulo-seccion-doble-imagen-slide { font-size: 26px; }
+
+  p.texto-seccion-imagen-doble-slide { font-size: 14px; line-height: 21px; }
+
+  .slider-desktop-recorrido { display: none; }
+  .slider-mobile-recorrido { display: block; }
+
+  .contenedor-imagen-formulario-recorrido { margin-bottom: 0; }
+  .contenedor-formulario-recorrido-virtual { padding: 0 26px; margin-left: 0; margin-top: 40px; margin-bottom: 50px; }
+
+  h2.titulo-formulario-recorrido-virtual { font-size: 26px; line-height: 114.4%; text-align: center; }
+  p.texto-formulario-recorrido-virtual { font-size: 14px; line-height: 21px; text-align: center; }
+
+  div#shopify-section-seccion-slide-imagen-doble { margin-top: 0; }
+}
+
+@media only screen and (max-width: 375px) {
+  .app-recorrido-virtual { width: 330px; height: 440px; }
+}
+
+@media only screen and (max-width: 350px)  {
+  .app-recorrido-virtual { width: 300px; height: 440px; }
+}
+
+@media only screen and (max-width: 320px) {
+  .app-recorrido-virtual { width: 270px; height: 440px; }
+}

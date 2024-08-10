@@ -1,0 +1,699 @@
+/** Shopify CDN: Minification failed
+
+Line 198:0 Unexpected "}"
+Line 261:11 Expected ":"
+Line 538:0 Unexpected "}"
+Line 689:0 Unexpected "{"
+Line 689:1 Unexpected "%"
+Line 691:1 Unexpected "{"
+Line 691:2 Expected identifier but found "%"
+Line 700:0 Expected "}" to go with "{"
+
+**/
+/* ubicaciones */
+
+.clasac__horarios{
+
+    margin: 0 0 0 4px;
+}
+
+.clasac__bar ul li h3 {
+  font-family:'lato';
+} 
+
+
+/* ajuste tienda individual */
+
+@media (min-width: 800px) {
+.celestina{ 
+margin: 0 5.5rem;
+}
+}
+
+.clasac__titulo__Norte h1{
+
+  width:450px;
+  
+}
+
+/* medias para acomodar el margin */
+
+@media only screen and (min-width: 330px) and (max-width: 430px) {
+.tiki-tiki{
+margin-top:8rem;
+}
+}
+
+@media only screen and (min-width: 431px) and (max-width: 701px) {
+.tiki-tiki{
+margin-top:7rem;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+.tiki-tiki{
+margin-top: 10.6rem;
+}
+}
+
+@media screen and (min-width: 1200px){
+.tiki-tiki{
+margin-top: 12.6rem;
+}
+}
+/* fin medias para acomodar el margin */
+
+
+/* inicio banner slider */
+
+@media screen and (max-width: 700px){
+
+    .di-no{
+display:none!important;
+      
+    }
+    
+  }
+
+@media screen and (max-width: 900px){
+
+    .di-no-2{
+display:none!important;
+      
+    }
+    
+  }
+
+@media screen and (min-width: 700px){
+
+    .no-di{
+display:none!important;
+      
+    }
+}
+
+@media screen and (min-width: 900px){
+
+    .no-di-2{
+display:none!important;
+      
+    }
+}
+
+
+
+
+
+/* fin inicio banner slider */
+
+/* banner buscar tiendas */
+
+.titulo__buscarTiendas h1 strong {
+
+  font-size: 48px;
+  
+}
+
+
+.col-12.col-md-12.col-lg-12 {
+    margin: 0;
+    padding: initial;
+}
+
+
+ .titulo__buscarTiendas h1 {
+   font-family: 'Lato';
+	 color: #fff;
+	 font-size: 24px;
+	 line-height: 44px;
+	 letter-spacing: -0.005em;
+	 font-weight: 400;
+	 font-style: normal;
+	 margin-bottom: 0;
+	 padding: 0 0 2px;
+}
+
+
+ .claac-bucartiendas_bline {
+	width: 152px;
+    height: 3px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #f33;
+}
+
+ @media screen and (max-width: 1279px) {
+	 div#shopify-section-banner-buscartiendas {
+		 padding-top: 150px !important;
+	}
+	 .titulo__buscarTiendas {
+		 top: 18%;
+		 left: 12px;
+	}
+}
+
+
+ @media screen and (max-width: 1024px) {
+	 .titulo__buscarTiendas {
+		 top: 363px;
+		 left: 12px;
+	}
+}
+ @media screen and (max-width: 540px) {
+	 div#shopify-section-banner-buscartiendas {
+		 padding-top: 88px !important;
+	}
+	 .titulo__buscarTiendas {
+		 top: 304px;
+		 left: 12px;
+       
+	}
+	 .titulo__buscarTiendas h1 {
+       
+    padding: 34px 172px 0 20px;
+    font-size: 18px;
+    line-height: 26px;
+       
+}
+
+   .titulo__buscarTiendas h1 strong {
+
+  font-size: 34px;
+}
+
+   	 .claac-bucartiendas_bline {
+    width: 114px;
+    height: 3px;
+    margin-top: 0px;
+    margin-left: 21px;
+    background-color: #f33;
+	}
+   
+	}
+
+
+	 .claac__bread ul {
+		 margin-left: 20px;
+	}
+}
+
+/* fin banner buscar tiendas */
+
+/* ubicacion buscar tiendas */
+
+div#shopify-section-banner-buscartiendas {
+	 padding-top: 177px !important;
+}
+ .claac__bread ul {
+	 margin-top: 10px;
+}
+ .claac__flex {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: space-between;
+}
+ .claac__selector {
+	 width: 40%;
+	 margin-right: 30px;
+}
+ .claac__parrafo {
+	 margin-right: 30px;
+}
+ p.claac__parrafo1 {
+	 font-size: 16px;
+	 line-height: 180%;
+	 text-align: justify;
+	 color: #222;
+	 font-weight: 500;
+     font-family: 'Lato';
+}
+ .form__select-est {
+	 margin-top: 5px;
+	 border-radius: 10px;
+	 background-color: #202833;
+	 color: #fff;
+}
+ @media only screen and (max-width: 768px) {
+	 .claac__flex {
+		 flex-wrap: wrap;
+	}
+	 .claac__selector {
+		 width: 100%;
+		 margin: auto;
+		 padding: 20px;
+	}
+	 .claac__parrafo {
+		 width: 100%;
+		 margin: auto;
+		 padding: 20px;
+	}
+}
+
+/* fin ubicacion buscar tiendas */
+
+ .claac__sectbuscartiendas {
+	 margin-bottom: 60px;
+	 margin-top: 20px;
+}
+ .claac__sec__buscartiendas {
+	 font-family: &#39;
+	Montserrat&#39;
+	;
+}
+ .claac__ti__buscartiendas {
+	 margin-bottom: 20px;
+}
+ .claac__ti__buscartiendas h4 {
+	 color: #f33;
+	 font-weight: 600;
+	 margin-bottom: 0;
+	 font-size: 16px;
+}
+ .claac__ti__buscartiendas hr {
+	 margin-top: 0;
+	 border: solid 1px #333;
+	 width: 115px;
+	 position: absolute;
+}
+ .claac__sec__images {
+	 border-radius: 100%;
+}
+ .claac__sec__opciones ul {
+	 width: 80%;
+}
+ .claac__sec__opciones ul li {
+	 height: 36px;
+	 width: 190px;
+	 margin-bottom: 10px;
+	 list-style: none;
+}
+ .claac__tienda-ac {
+	 width: 190px;
+	 height: 36px;
+	 border-radius: 25px;
+	 border: 1px solid #202833;
+	 background: #fff;
+	 position: relative;
+}
+ p.claac__text-tienda {
+	 width: 100%;
+	 height: auto;
+	 display: block;
+	 float: none;
+	 position: absolute;
+	 padding-left: 0px;
+	 line-height: 0px;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+}
+ p.claac__text-tienda a {
+	 width: 100%;
+	 height: auto;
+	 display: block;
+	 color: #202833;
+	 font-size: 16px;
+	 padding: 17px 9px;
+	 text-decoration: none;
+	 font-weight: 600;
+	 border-radius: 15px;
+	 transition: all 0.3s ease-in;
+}
+ p.claac__text-tienda a:hover {
+	 background: #202833;
+	 color: #fff;
+	 text-decoration: none;
+	 transition: all 0.3s ease-in;
+}
+ .claac__tienda-ac a:nth-child(2) {
+	 width: 30px;
+	 height: 30px;
+	 display: block;
+	 position: absolute;
+	 top: 2px;
+	 right: 3px;
+	 z-index: 2;
+	 transition: all 0.3s ease-in;
+}
+ .claac__tienda-ac a:nth-child(2):hover {
+	 opacity: 0.75;
+	 transition: all 0.3s ease-in;
+}
+ img.claac__img-tienda {
+	 float: right;
+	 padding-right: 6px;
+	 padding-top: 4px;
+}
+ @media screen and (max-width: 520px) {
+	 .claac__sec__buscartiendas {
+		 margin-top: 35px;
+	}
+	 .claac__sectbuscartiendas {
+		 margin-top: 0px;
+		 margin-bottom: 20px;
+	}
+	 .claac__ti__buscartiendas h4 {
+		 text-align: center;
+		 padding-bottom: 0px;
+	}
+	 .claac__ti__buscartiendas hr {
+		 position: relative;
+         margin: 0 auto;
+	}
+	 .claac__sec__images {
+		 margin-left: 18%;
+		 margin-right: 18%;
+		 width: 65% !important;
+		 border-radius: 100%;
+	}
+	 .claac__sec__opciones ul {
+		 display: block;
+		 float: none;
+		 margin: 0 auto;
+	}
+	 .claac__sec__opciones ul li {
+		 text-align: center;
+		 padding: 5px;
+		 width: 200px;
+		 margin: 10px auto 0 auto;
+	}
+}
+
+.cont-lugar{
+  display:flex;
+      align-items: center;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5em;
+    background: rgba(64,75,90,.83);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 35px;
+    color: #fff;
+    position: absolute;
+}
+
+.cont-lugar img{
+height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
+.cont-lugar p  {
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+margin-right: 10px;
+
+
+/* identical to box height, or 86% */
+letter-spacing: 0.3em;
+
+color: #FFFFFF;
+    
+  }
+
+.ubicacion-titulo-principal{
+
+  width:;
+  left:;
+}
+
+/* label buscar tiendas */
+
+  .titulo__buscarTiendas {
+    position: absolute;
+}
+
+@media only screen and (min-width: 330px) and (max-width: 430px){
+
+  .titulo__buscarTiendas {
+top: 55% !important;
+    left: 1rem !important;
+    position: absolute;
+}
+  
+}
+@media only screen and (min-width: 431px) and (max-width: 701px) {
+    .titulo__buscarTiendas {
+    top: 14rem !important;
+    left: 1rem !important;
+}
+}
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .titulo__buscarTiendas {
+    top: 8rem !important;
+    left: 14px !important;
+}
+  
+}
+@media screen and (min-width: 1200px){
+
+      .titulo__buscarTiendas {
+    top: 68% !important;
+    left: 5rem !important;
+}
+
+.dorito {
+
+  width:230px !important;
+  
+}
+  
+}
+
+
+/* ajuste a tamaño h2 individuales*/
+
+.clasac__titulo__Norte{
+  width:380px;
+  top: 249px !important;
+  margin-left: 7px !important;
+  
+}
+
+.titulo-completo .clasac__titulo__Norte h1 {
+
+width:100% !important;
+  
+}
+
+/* ajustes a section de tiendas individuales parrafos*/
+
+.inicial div h2{
+width: auto;
+height: auto;
+  
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 38px;
+
+/* identical to box height, or 112% */
+
+color: #404B5A;
+  
+}
+
+ .inicial div p {
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+
+/* or 169% */
+
+color: #404B5A;
+    
+  }
+  
+  .inicial{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    
+  }
+
+  .inicial div {
+
+    width: 90%;
+  }
+
+.parrado-individual-letra a {
+
+  color:#404B5A;
+  font-weight: bolder;
+}
+
+
+  
+}
+
+/* grilla de imagenes */
+
+.primera-capa{
+
+width:100%;
+display : flex;
+justify-content: center;
+padding: 0px 16px 16px !important;
+
+}
+
+.segunda-capa{
+
+justify-content: center;
+  
+}
+
+.tercera-capa{
+    width: 48%;
+  
+}
+
+.cuarta-capa{
+
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.pan-flex{
+
+  display:flex;
+  
+}
+
+.espacio22{
+    margin-bottom: 2.2%;
+}
+
+
+.comjo{
+  margin-left: 20px;
+}
+
+.item-1mg{
+
+    width: 47%;
+    height: 100%;
+  
+}
+  
+  @media only screen and (max-width: 600px) {
+
+
+.segunda-capa {
+   flex-direction: column;
+}
+.tercera-capa {
+    width: 100%;
+  margin-bottom:20px;
+}
+
+    .espacio22 {
+    margin-bottom: 4.2%;
+}
+    
+  }
+
+.h2-ubicacion {
+    margin: 0 0 0 2rem;
+}
+
+.h2-ubicacion h2 {
+
+  font-weight: 500;
+  font-family: lato;
+}
+
+.clasac__titulo__Norte h1 strong {
+
+  font-family: lato;
+    font-weight: 500;
+}
+
+/* query general */
+
+@media only screen and (max-width: 700px){
+.primera-capa{
+  margin-bottom:0px!important;
+}
+
+.h2-ubicacion h2{
+font-size: 22px;
+  
+}
+
+.clasac__boxt {
+
+height: 25px;
+  
+}
+
+ .clasac__boxt h2 {
+   margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+     font-size: 12px;
+  
+}
+
+.clasac__boxt {
+    top: 238px;
+}
+
+.container-text-ciudad {
+    height: 19px !important;
+    margin: 2px -3px 0 0 !important;
+}
+
+.clasac__titulo__Norte h1 strong {
+    font-family: lato;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.cont-lugar{
+
+  top: 18px;
+    left: 11px;
+  
+}
+
+.maru {
+
+  margin-top:-6px;
+}
+
+.inicial div h2{
+
+line-height: 28px;
+
+}
+  
+}
+
+@media only screen and (min-width: 700px){
+{%comment%].primera-capa{
+  margin-bottom:80px!important;
+}{% endcomment %}
+.h2-ubicacion h2 {
+
+  font-size:36px;
+}
+
+
+}
+

@@ -1,0 +1,605 @@
+/** Shopify CDN: Minification failed
+
+Line 432:60 Expected ":"
+
+**/
+/*Forzar icóno X en menú Hamburguesa*/
+.fa-remove:before, .fa-close:before, .fa-times:before { content: "\f00d"!important;}
+
+/*Inicio Ocultar Header, Footer*/
+#el-placer-de-descansar #MainContent { padding: 0!important; }
+#el-placer-de-descansar header.main-header { display: none!important; }
+#el-placer-de-descansar footer.site-footer { display: none!important; }
+
+#el-placer-de-descansar-1 #MainContent { padding: 0!important; }
+#el-placer-de-descansar-1 header.main-header { display: none!important; }
+#el-placer-de-descansar-1 footer.site-footer { display: none!important; }
+
+#el-placer-de-descansar-2 #MainContent { padding: 0!important; }
+#el-placer-de-descansar-2 header.main-header { display: none!important; }
+#el-placer-de-descansar-2 footer.site-footer { display: none!important; }
+
+#el-placer-de-descansar-3 #MainContent { padding: 0!important; }
+#el-placer-de-descansar-3 header.main-header { display: none!important; }
+#el-placer-de-descansar-3 footer.site-footer { display: none!important; }
+/*Fin Ocultar Header, Footer*/
+
+/*Inicio Header, Menú Hamburguesa*/
+#shopify-section-seccion-header-menu-ossa header { background: #371D82; }
+#shopify-section-seccion-header-menu-ossa header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#shopify-section-seccion-header-menu-ossa header div.inner-width a img { width: 124px; height: 24px; }
+#shopify-section-seccion-header-menu-ossa header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#shopify-section-seccion-header-menu-ossa header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#shopify-section-seccion-header-menu-ossa header div.inner-width div.menu-icon.active { background: #371d82; color: #fff; }
+
+#shopify-section-seccion-header-menu-ossa div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #fff; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu nav { display: grid; list-style: none;}
+#shopify-section-seccion-header-menu-ossa div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu a { color: #000; font-size: 40px; font-weight: 700; position: relative; display: inline-block; transform: translateY(40px); font-family: 'Montserrat'; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #371d82; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu a:hover {  }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu a:hover::before { width: 100%; }
+
+#shopify-section-seccion-header-menu-ossa div.navigation-menu.active { right: 0; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#shopify-section-seccion-header-menu-ossa div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+/*Fin Header, Menú Hamburguesa*/
+
+/*Inicio Footer*/
+#shopify-section-seccion-footer-home-ossa footer.footer-influencer { height: 70px; width: 100%; background: #371D82; position: relative; bottom: 1px; }
+#shopify-section-seccion-footer-home-ossa footer.footer-influencer a img { width: 124px; height: auto; display: block; margin: 0 auto; padding: 24px 0; }
+/*Fin Footer*/
+
+/*Inicio Home*/
+/*Inicio 1ra Sección Banner Ossa Villegas*/
+.container-banner-ossa-villegas .img-ossa-desktop { display: block; }
+.container-banner-ossa-villegas .img-ossa-mobile { display: none; }
+/*Fin 1ra Sección Banner Ossa Villegas*/
+
+/*Inicio 2da Sección Ossa Villegas*/
+.container-ossa-deportista-coach { height: 300px; text-align: center; background-image: url(/cdn/shop/files/nube-1.svg?v=1663944268); background-repeat: no-repeat; background-position: 40% 45%; background-size: contain; padding: 90px 0 0 0; }
+.container-ossa-deportista-coach img { margin: 24px 0; }
+.container-ossa-deportista-coach p.text-1-ossa-deportista-coach { width: 670px; display: block; margin: 0 auto; font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-size: 22px; line-height: 32px; color: #141C27; }
+.container-ossa-deportista-coach p.text-2-ossa-deportista-coach strong { width: 554px; display: block; margin: 0 auto; font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 30px; text-align: center; letter-spacing: 0.01em; text-transform: uppercase; color: #141C27; }
+/*Fin 2da Sección Ossa Villegas*/
+
+/*Inicio 3ra Sección Ossa Villegas*/
+.container-img-tu-colchon-aliado { text-align: center; }
+
+.container-txt-tu-colchon-tu-aliado { padding: 0 80px 0 150px; }
+.container-txt-tu-colchon-tu-aliado img { margin: 16px 0 0 0; }
+.container-txt-tu-colchon-tu-aliado p.titulo-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 27px; text-transform: uppercase; color: #371D82; margin: 16px 0; }
+.container-txt-tu-colchon-tu-aliado p.descripcion-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-size: 16px; line-height: 22px; color: #141C27; margin: 0 0 30px 0; }
+.container-txt-tu-colchon-tu-aliado p.descripcion-tu-colchon-tu-aliado strong { font-weight: 800; }
+.container-txt-tu-colchon-tu-aliado a { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 20px; letter-spacing: 0.1em; text-transform: uppercase; color: #141C27; }
+
+div#seccion-capitulo1-tu-colchon-tu-aliado { background-image: url(/cdn/shop/files/background-secreto.svg?v=1663949316); background-repeat: no-repeat; background-position: 120% 100%; }
+.container-secreto-de-un-buen-dia { text-align: center; margin: 60px 0 0 0; }
+.container-secreto-de-un-buen-dia p { font-family: 'Merriweather'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 28px; color: #141C27; padding: 0 129px 0 140px; text-align: end; margin: 16px 0 10px 0; }
+.container-secreto-de-un-buen-dia p.dicho-ossa-villegas { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-size: 16px; line-height: 20px; text-align: right; color: #141C27; height: 45px; }
+/*Fin 3ra Sección Ossa Villegas*/
+
+/*Inicio 4ta Sección Ossa Villegas*/
+.container-txt-colchon-ideal { padding: 0 95px; margin: 125px 0 0 0; }
+.container-txt-colchon-ideal p.titulo-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 27px; text-transform: uppercase; color: #371D82; margin: 16px 0; height: 45px; }
+.container-txt-colchon-ideal p.descripcion-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-size: 16px; line-height: 22px; color: #141C27; margin: 0 0 30px 0; }
+.container-txt-colchon-ideal a { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 20px; letter-spacing: 0.1em; text-transform: uppercase; color: #141C27; }
+/*Fin 4ta Sección Ossa Villegas*/
+
+/*Inicio 5ta Sección Ossa Villegas*/
+.container-img-almohada img { position: absolute; top: 0px; left: 15px; }
+
+.container-txt-sabias-que { height: 470px; margin: 110px 0 0 0; padding: 0 55px; }
+.container-txt-sabias-que p.titulo-sabias-que { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 28px; line-height: 40px; color: #141C27; }
+.container-txt-sabias-que p.complemento-sabias-que { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 28px; color: #141C27; }
+.container-txt-sabias-que p.conclusion-ahora-lo-sabes { font-family: 'Montserrat'; font-style: normal; font-weight: 600; font-size: 21.4447px; line-height: 34px; text-transform: uppercase; color: #141C27; }
+.container-txt-sabias-que p.conclusion-momento-de-cambiar { font-family: 'Montserrat'; font-style: normal; font-weight: 600; font-size: 15.8013px; line-height: 34px; text-transform: uppercase; color: #141C27; }
+
+.container-img-colchon-somier img { position: absolute; bottom: 110px; right: 15px; }
+/*Fin 5ta Sección Ossa Villegas*/
+
+/*Inicio 6ta Sección Ossa Villegas*/
+.container-img-quedarse-en-la-cama { margin: 70px 0 0 0; background-image: url(/cdn/shop/files/background-quedarse.svg?v=1663979086); background-repeat: no-repeat; background-position: 95% 100%; background-size: contain; }
+.container-img-quedarse-en-la-cama img { margin: 0 0 0 130px; }
+.container-img-quedarse-en-la-cama p { font-family: 'Merriweather'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 28px; color: #141C27; margin: 16px 0 10px 0; padding: 0 90px 0 130px; }
+.container-img-quedarse-en-la-cama p.dicho2-ossa-villegas { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-size: 16px; line-height: 20px; text-align: initial; color: #141C27; margin: 0; height: 80px; }
+
+.container-txt-descansar-es-necesario { padding: 0 175px 0 25px; }
+.container-img-descansar-es-necesario { margin: 0 0 0 70px; }
+.container-img-descansar-es-necesario p.titulo-descansar-es-necesario { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 27px; text-transform: uppercase; color: #371D82; margin: 16px 0; }
+.container-img-descansar-es-necesario p.descripcion-descansar-es-necesario { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-size: 16px; line-height: 22px; color: #141C27; margin: 0 0 30px 0; }
+.container-img-descansar-es-necesario p.descripcion-descansar-es-necesario strong { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 22px; color: #141C27; }
+.container-img-descansar-es-necesario a { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 20px; letter-spacing: 0.1em; text-transform: uppercase; color: #141C27; }
+/*Fin 6ta Sección Ossa Villegas*/
+/*Fin Home*/
+
+/*Inicio Entrada 1*/
+/*Inicio Capitulo 1 sección 1*/
+.container-img-capitulo1-tu-colchon-tu-aliado { text-align: center; }
+
+.container-txt-capitulo1-tu-colchon-tu-aliado { margin: 0 30%; }
+.container-txt-capitulo1-tu-colchon-tu-aliado img { margin: 18px 0 0 0; }
+.container-txt-capitulo1-tu-colchon-tu-aliado p.cap1-titulo-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 30px; line-height: 37px; text-transform: uppercase; color: #371D82; margin: 16px 0 24px 0; }
+.container-txt-capitulo1-tu-colchon-tu-aliado p.cap1-descripcion-tu-colchon-tu-aliado { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+/*Fin Capitulo 1 sección 1*/
+
+/*Inicio Capitulo 1 sección 2*/
+div#capitulo-1-un-buen-colchon-lo-es-todo { height: 475px; background-image: url(/cdn/shop/files/background-cap1-secc2.svg?v=1664209345); background-repeat: no-repeat; background-position: 0% 0%; background-size: inherit; }
+
+.container-txt-un-buen-colchon { margin: 160px 0 0 150px; }
+.container-txt-un-buen-colchon p.cap1-titulo-un-buen-colchon { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 24px; color: #371D82; }
+.container-txt-un-buen-colchon p.cap1-descripcion-un-buen-colchon { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+
+.container-img-un-buen-colchon { margin: 0 150px 0 0; }
+/*Fin Capitulo 1 sección 2*/
+
+/*Inicio Capitulo 1 sección 3*/
+.container-img-musica-y-estiramientos { margin: 55px 0 0 0; }
+
+.container-txt-img-musica-estiramientos { margin: 125px 0 0 55px; }
+.container-txt-img-musica-estiramientos .cap1-titulo-musica-y-estiramientos { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 24px; color: #371D82; }
+.container-txt-img-musica-estiramientos .cap1-descripcion-musica-y-estiramientos { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; margin: 0 0 42px 0; padding: 0 100px 33px 0; margin: 0; }
+/*Fin Capitulo 1 sección 3*/
+
+/*Inicio Capitulo 1 sección 4*/
+div#capitulo-1-prepararme-para-un-gran-dia { margin: 52px 0 0 0; }
+
+.container-img-prepararme-para-un-gran-dia { background-image: url(/cdn/shop/files/background-un-gran-dia.svg?v=1664213301); background-repeat: no-repeat; background-position: 100% 10%; background-size: contain; height: 750px; }
+.container-img-prepararme-para-un-gran-dia a img { width: 432px; height: 534px; margin: 104px 0 0px 148px; }
+
+.container-txt-img-preparamen-para-un-gran-dia { margin: 36px 0 0 0; }
+.container-txt-img-preparamen-para-un-gran-dia p.cap1-titulo-prepararme-para-un-gran-dia { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 24px; color: #371D82; padding: 38px 0 0 48px; }
+.container-txt-img-preparamen-para-un-gran-dia p.cap1-descrpcion-prepararme-para-un-gran-dia { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; padding: 0 100px 0 48px; }
+.container-txt-img-preparamen-para-un-gran-dia p.cap1-descrpcion-prepararme-para-un-gran-dia a strong { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; color: #141C27; }
+/*Fin Capitulo 1 sección 4*/
+
+/*Inicio Capitulo 1 sección 5*/
+.container-titulo-tips-para-mejorar-tu-dia { text-align: center; }
+.container-titulo-tips-para-mejorar-tu-dia h1 { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 28px; line-height: 24px; color: #141C27; padding: 0; margin: 0 0 48px 0; letter-spacing: 0; }
+
+.container-cta-cap-anterior { margin: 100px 0 0 0; }
+.container-cta-cap-siguiente { margin: 100px 0 0 0; display: flex; justify-content: flex-end;}
+/*Fin Capitulo 1 sección 5*2
+/*Fin Entrada 1*/
+
+/*Inicio Entrada 2*/
+/*Inicio Capitulo 2 sección 1*/
+.container-img-capitulo2-escojer-tu-colchon-ideal { text-align: center; }
+
+.container-txt-capitulo2-escojer-tu-colchon-idel { margin: 0 30%; }
+.container-txt-capitulo2-escojer-tu-colchon-idel img { margin: 32px 0 16px; }
+.container-txt-capitulo2-escojer-tu-colchon-idel p.cap2-titulo-escojer-tu-colchon-ideal { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 30px; line-height: 37px; text-transform: uppercase; color: #371D82; }
+.container-txt-capitulo2-escojer-tu-colchon-idel p.cap2-descripcion-escojer-tu-colchon-ideal { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+/*Fin Capitulo 2 sección 1*/
+
+/*Inicio Capitulo 2 sección 2*/
+div#capitulo-2-nada-se-mueve-nada-es-nada { background-image: url(/cdn/shop/files/background-cap1-secc2.svg?v=1664209345); background-repeat: no-repeat; background-position: 0% 165%; background-size: contain; height: 500px; }
+
+.container-img-txt-nada-se-mueve { margin: 52px 0 0 135px; }
+.container-img-txt-nada-se-mueve p.cap2-titulo1-nada-se-mueve { font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px; text-transform: uppercase; color: #371D82; margin: 0; }
+.container-img-txt-nada-se-mueve p.cap2-titulo2-nada-se-mueve { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 20px; line-height: 30px; color: #371D82; }
+.container-img-txt-nada-se-mueve p.cap2-descripcion-nada-se-mueve { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; padding: 0 20px 0 0; }
+.container-img-txt-nada-se-mueve p.cap2-descripcion-nada-se-mueve a strong { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; color: #141C27; }
+
+.container-img-nada-se-mueve { margin: 0 135px 0 0; }
+/*Fin Capitulo 2 sección 2*/
+
+/*Inicio Capitulo 2 sección 3*/
+.container-img-dormir-limpio { margin: 52px 54px 0 135px; }
+
+.container-txt-img-dormir-limpio { margin: 105px 135px 0 54px; }
+.container-txt-img-dormir-limpio p.cap2-titulo1-dormir-limpio { font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px; text-transform: uppercase; color: #371D82; margin: 0; }
+.container-txt-img-dormir-limpio p.cap2-titulo2-dormir-limpio { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 20px; line-height: 30px; color: #371D82; }
+.container-txt-img-dormir-limpio p.cap2-descripcion-dormir-limpio { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+.container-txt-img-dormir-limpio p.cap2-descripcion-dormir-limpio a strong { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; color: #141C27; }
+/*Fin Capitulo 2 seccion 3*/
+
+/*Inicio Capitulo 2 sección 4*/
+div#capitulo-2-rendir-mejor-gracias-a-tu-colchon { margin: 133px 0 0 0; background-image: url(/cdn/shop/files/background-colchon-inergia.svg?v=1664248994); background-repeat: no-repeat; background-position: -10% 100%; background-size: inherit; height: 500px; }
+
+.container-img-txt-rendir-mejor { margin: 47px 20px 0 135px; }
+.container-img-txt-rendir-mejor p.cap2-titulo1-rendir-mejor { font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px; text-transform: uppercase; color: #371D82; margin: 0; }
+.container-img-txt-rendir-mejor p.cap2-titulo2-rendir-mejor { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 20px; line-height: 30px; color: #371D82; }
+.container-img-txt-rendir-mejor p.cap2-descripcion-rendir-mejor { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+.container-img-txt-rendir-mejor p.cap2-descripcion-rendir-mejor a strong { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; color: #141C27; }
+
+.container-img-rendir-mejor { margin: 0 135px 0 30px; }
+/*Fin Capitulo 2 seccion 4*/
+
+/*Inicio Capitulo 2 sección 5*/
+.container-img-mejores-colchones { margin: 47px 20px 0 135px; }
+
+.container-txt-items-mejores-colchones { margin: 215px 82px 0 30px; }
+.container-txt-items-mejores-colchones p.cap2-titulo-mejores-colchones { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 28px; line-height: 32px; color: #141C27; }
+.container-txt-items-mejores-colchones ul { list-style: none; margin: 0; }
+.container-txt-items-mejores-colchones ul li { display: flex; align-items: flex-start; }
+.container-txt-items-mejores-colchones ul li p { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 20px; color: #000000; margin: 0 0 31px 0; }
+.container-txt-items-mejores-colchones ul li img { margin: 0 14px 0 0; }
+/*Fin Capitulo 2 sección 5*/
+/*Fin Entrada 2*/
+
+/*Inicio Entrada 3*/
+/*Inicio Capitulo 3 sección 1*/
+.container-img-cap3-descansar-es-necesario { text-align: center; }
+
+.container-img-txt-cap3-descansar-es-necesario { margin: 0 30%; }
+.container-img-txt-cap3-descansar-es-necesario img { margin: 32px 0 16px; }
+.container-img-txt-cap3-descansar-es-necesario p.cap3-titulo-descansar-es-necesario { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 30px; line-height: 37px; text-transform: uppercase; color: #371D82; }
+.container-img-txt-cap3-descansar-es-necesario p.cap3-descripcion-descansar-es-necesario { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+.container-img-txt-cap3-descansar-es-necesario p.cap3-complemento-descansar-es-necesario { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; line-height: 24px; color: #141C27; }
+/*Fin Capitulo 3 sección 1*/
+
+/*Inicio Capitulo 3 sección 2*/
+div#capitulo-3-deja-que-tu-cuerpo-decida { background-image: url(/cdn/shop/files/background-cap1-secc2.svg?v=1664209345); background-repeat: no-repeat; background-size: cover; background-position: 0% 50%; height: 500px; }
+
+.container-txt-deja-que-tu-cuerpo-decida { margin: 178px 0 0 115px; }
+.container-txt-deja-que-tu-cuerpo-decida p.cap3-titulo-deja-que-tu-cuerpo-decida { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 30px; color: #371D82; }
+.container-txt-deja-que-tu-cuerpo-decida p.cap3-descripcion-deja-que-tu-cuerpo-decida { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; }
+
+.container-img-deja-que-tu-cuerpo-decida { margin: 0 115px 0 0; }
+/*Fin Capitulo 3 sección 2*/
+
+/*Inicio Capitulo 3 sección 3*/
+div#capitulo-3-conexion-desconexion { margin: 72px 0 0 0; }
+
+.container-img-conexion-desconexion { margin: 72px 0 0 115px; }
+
+.container-img-txt-conexion-desconexion { margin: 0 115px 0 0; }
+.container-img-txt-conexion-desconexion p.cap3-titulo-conexion-desconexion { font-family: 'Montserrat'; font-style: normal;font-weight: 700; font-size: 22px; line-height: 30px; color: #371D82; margin: 32px 0 16px 0; padding: 0 0 0 32px; }
+.container-img-txt-conexion-desconexion p.cap3-descripcion-conexion-desconexion { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; padding: 0 0 0 32px; }
+/*Fin Capitulo 3 sección 3*/
+
+/*Inicio Capitulo 3 seccion 4*/
+div#capitulo-3-a-mayor-descanso-mas-me-conecto { margin: 106px 0 0 0; background-image: url(/cdn/shop/files/background-a-mayor-descanso.svg?v=1664295531); background-repeat: no-repeat; background-position: 0% 0%; background-size: contain; }
+
+.container-txt-a-mayor-descanso-mas-me-conecto { margin: 148px 0 0 115px; }
+.container-txt-a-mayor-descanso-mas-me-conecto p.cap3-titulo-a-mayor-descanso-mas-me-conecto { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 22px; line-height: 30px; color: #371D82; padding: 0 105px 0 0; }
+.container-txt-a-mayor-descanso-mas-me-conecto p.cap3-desciprcion-a-mayor-descanso-mas-me-conecto { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; color: #141C27; padding: 0 20px 0 0px; }
+
+.container-img-a-mayor-descanso-mas-ame-conecto { margin: 25px 115px 0 0; }
+/*Fin Capitulo 3 sección 4*/
+
+/*Inicio Capitulo 3 sección 5*/
+.container-titulo-descansar-tu-cuerpo { text-align: center; margin: 45px 0 48px 0; }
+.container-titulo-descansar-tu-cuerpo h1 { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-size: 28px; line-height: 24px; color: #141C27; letter-spacing: 0; }
+/*Fin Capitulo 3 sección 5*/
+/*Fin Entrada 3*/
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+  /*Inicio Home*/
+  .container-secreto-de-un-buen-dia { background-position: 100% 0%; }
+  .container-secreto-de-un-buen-dia p { padding: 0 170px 0 185px; }
+  .container-secreto-de-un-buen-dia p.dicho-ossa-villegas { height: 45px; }
+
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-position: 110% 100%; }
+
+  .container-img-quedarse-en-la-cama { background-position: 0% 100%; }
+  .container-img-quedarse-en-la-cama p { padding: 0 175px 0 130px; }
+  /*Fin Home*/
+
+  /*Inicio Entrada 1*/
+  div#capitulo-1-un-buen-colchon-lo-es-todo { height: 520px; }
+  /*Fin Entrada 1*/
+}
+@media only screen and (max-width: 1199px) {
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-position: 150% 100%; }
+  div#capitulo-2-nada-se-mueve-nada-es-nada { height: 450px; }
+  div#capitulo-2-rendir-mejor-gracias-a-tu-colchon { height: 450px; }
+  .container-img-mejores-colchones { margin: 47px 20px 0 52px; }
+  .container-txt-items-mejores-colchones { margin: 170px 52px 0 30px; }
+}
+@media only screen and (max-width: 1024px) {
+  /*Inicio Home*/
+  .container-txt-tu-colchon-tu-aliado { padding: 0 15px; }
+
+  .container-ossa-deportista-coach { padding: 60px 0 0 0; }
+
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-position: 220% 100%; }
+  
+  .container-secreto-de-un-buen-dia { margin: 65px 0 0 0; }
+  .container-secreto-de-un-buen-dia p { padding: 0 46px; }
+  .container-secreto-de-un-buen-dia p.dicho-ossa-villegas { padding: 0 46px; }
+  
+  .container-txt-colchon-ideal { padding: 0 15px; margin: 15px 0 0 0; }
+  
+  .container-txt-sabias-que { margin: 0; padding: 0; }
+  .container-txt-sabias-que p.conclusion-ahora-lo-sabes { margin: 0; }
+  .container-txt-sabias-que p.conclusion-momento-de-cambiar { margin: 0; }
+  
+  .container-img-quedarse-en-la-cama { margin: 40 0 0 0; }
+  .container-img-quedarse-en-la-cama img { margin: 0 0 0 30px; }
+  .container-img-quedarse-en-la-cama p { padding: 0 30px; }
+  .container-img-quedarse-en-la-cama p.dicho2-ossa-villegas { padding: 0 30px; }
+
+  .container-img-descansar-es-necesario { margin: 0 30px; }
+  
+  .container-txt-descansar-es-necesario { padding: 0; }
+  /*Fin Home*/
+  
+  div#capitulo-1-un-buen-colchon-lo-es-todo { height: 390px; }
+  
+  .container-txt-img-musica-estiramientos { margin: 50px 18px 0 55px; }
+  
+  .container-txt-un-buen-colchon { margin: 60px 0 0 150px; }
+  
+  .container-img-prepararme-para-un-gran-dia a img { margin: 108px 0 0px 62px; }
+
+  .container-img-nada-se-mueve { margin: 100px 135px 0 0; }
+
+  .container-img-dormir-limpio { margin: 148px 54px 0 135px; }
+
+  .container-img-txt-rendir-mejor { margin: 12px 20px 0 135px; }
+
+  .container-img-rendir-mejor { margin: 78px 135px 0 30px; }
+
+  div#capitulo-2-rendir-mejor-gracias-a-tu-colchon { margin: 73px 0 0 0; }
+
+  .container-txt-items-mejores-colchones { margin: 132px 52px 0 30px; }
+
+  .container-txt-a-mayor-descanso-mas-me-conecto { margin: 50px 0 0 115px; }
+
+  .container-txt-deja-que-tu-cuerpo-decida { margin: 52px 0 0 115px; }
+
+  div#capitulo-3-deja-que-tu-cuerpo-decida { height: 380px; }
+
+}
+@media only screen and (max-width: 899px) {
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-position: 380% 100%; }
+  
+  .container-txt-capitulo1-tu-colchon-tu-aliado { margin: 0 20%; }
+  .container-img-un-buen-colchon { margin: 52px 62px 0 0; }
+
+  .container-img-prepararme-para-un-gran-dia a img { margin: 150px 0 0px 32px; width: 402px; height: auto; }
+
+  .container-img-txt-nada-se-mueve { margin: 20px 0 0 92px; }
+
+  .container-img-nada-se-mueve { margin: 82px 92px 0 0; }
+
+  .container-secreto-de-un-buen-dia p { padding: 0 16px; }
+  .container-secreto-de-un-buen-dia p.dicho-ossa-villegas { padding: 0 16px; }
+
+  .container-img-dormir-limpio { margin: 148px 54px 0 92px; }
+
+  .container-txt-img-dormir-limpio { margin: 105px 92px 0 54px; }
+
+  .container-img-txt-rendir-mejor { margin: 12px 20px 0 92px; }
+
+  .container-img-rendir-mejor { margin: 78px 92px 0 30px; }
+
+  .container-txt-items-mejores-colchones { margin: 70px 52px 0 30px; }
+
+  div#capitulo-3-deja-que-tu-cuerpo-decida { height: 320px; }
+  .container-txt-deja-que-tu-cuerpo-decida { margin: 26px 0 0 115px; }
+
+  .container-img-conexion-desconexion { margin: 102px 0 0 115px; }
+
+  div#capitulo-3-a-mayor-descanso-mas-me-conecto { margin: 76px 0 0 0; }
+
+  .container-txt-a-mayor-descanso-mas-me-conecto { margin: 25px 0 0 115px; }
+}
+@media only screen and (max-width: 768px) {
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-position: -2300% 100%; }
+  .container-img-un-buen-colchon { margin: 62px 62px 0 0; }
+  .container-txt-un-buen-colchon { margin: 60px 0 0 100px; }
+  .container-txt-img-musica-estiramientos .cap1-descripcion-musica-y-estiramientos { padding: 0 0px 33px 0; }
+  .container-txt-img-preparamen-para-un-gran-dia p.cap1-titulo-prepararme-para-un-gran-dia { padding: 38px 0 0 32px; }
+  .container-img-prepararme-para-un-gran-dia a img { margin: 200px 0 0px 32px; width: 318px; }
+
+  .container-txt-capitulo2-escojer-tu-colchon-idel { margin: 0 25%; }
+
+  div#capitulo-2-nada-se-mueve-nada-es-nada { height: 480px; background-position: 0% 100%; }
+
+  .container-img-txt-nada-se-mueve { margin: 20px 0 0 42px; }
+
+  .container-img-nada-se-mueve { margin: 108px 42px 0 0; }
+
+  .container-img-dormir-limpio { margin: 148px 32px 0 42px; }
+
+  .container-txt-img-dormir-limpio { margin: 105px 42px 0 32px; }
+
+  .container-img-txt-rendir-mejor { margin: 12px 20px 0 42px; }
+
+  .container-img-rendir-mejor { margin: 78px 42px 0 30px; }
+
+  div#capitulo-2-rendir-mejor-gracias-a-tu-colchon { height: 480px; }
+
+  .container-txt-a-mayor-descanso-mas-me-conecto { margin: 25px 0 0 35px; }
+
+  .container-img-a-mayor-descanso-mas-ame-conecto { margin: 25px 35px 0 0; }
+
+  .container-img-conexion-desconexion { margin: 102px 0 0 35px; }
+
+  .container-img-txt-conexion-desconexion { margin: 0 35px 0 0; }
+
+  .container-txt-deja-que-tu-cuerpo-decida { margin: 26px 0 0 35px; }
+
+  .container-img-deja-que-tu-cuerpo-decida { margin: 0 35px 0 0; }
+
+  .container-img-txt-cap3-descansar-es-necesario { margin: 0 22%; }
+}
+@media only screen and (max-width: 430px) {
+  /*Inicio Mobile Home*/
+  .container-banner-ossa-villegas .img-ossa-desktop { display: none; }
+  .container-banner-ossa-villegas .img-ossa-mobile { display: block; width: 100%; }
+
+  .container-ossa-deportista-coach { padding: 62px 0 0; }
+  .container-ossa-deportista-coach p.text-1-ossa-deportista-coach { font-size: 18px; line-height: 26px; width: 100%; padding: 0 25px; }
+  .container-ossa-deportista-coach p.text-2-ossa-deportista-coach strong { font-size: 18px; line-height: 28px; width: 100%; padding: 0 30px; }
+
+  .container-img-tu-colchon-aliado { padding: 0 15px; }
+  .container-img-tu-colchon-aliado img { width: 100%; margin 0 auto; display: block; }
+
+  .container-txt-tu-colchon-tu-aliado { padding: 30px 20px 0; }
+  .container-txt-tu-colchon-tu-aliado p.descripcion-tu-colchon-tu-aliado { font-size: 14px; line-height: 24px; }
+  .container-txt-tu-colchon-tu-aliado a { font-size: 14px; line-height: 17px; }
+
+  div#seccion-capitulo1-tu-colchon-tu-aliado { background-image: url(/cdn/shop/files/background-secreto.svg?v=1663949316); background-repeat: no-repeat; background-position: 50% 100%; }
+  .container-secreto-de-un-buen-dia { margin: 65px 4% 0; }
+  .container-secreto-de-un-buen-dia p { padding: 0; text-align: initial; }
+  .container-secreto-de-un-buen-dia p.dicho-ossa-villegas { text-align: initial; padding: 0; font-size: 14px; line-height: 17px; }
+
+  .container-img-colchon-ideal img { width: 100%; display: block; margin: 0 auto; }
+
+  .container-txt-colchon-ideal { margin: 30px 0 0; padding: 0 5px; }
+  .container-txt-colchon-ideal p.titulo-tu-colchon-tu-aliado { font-size: 20px; line-height: 24px; }
+  .container-txt-colchon-ideal p.descripcion-tu-colchon-tu-aliado { font-size: 14px; line-height: 24px; }
+  .container-txt-colchon-ideal a { font-size: 14px; line-height: 17px; }
+
+  .container-img-almohada img { display: none; position: initial; }
+  
+  .container-txt-sabias-que { margin: 110px 0 0 0; padding: 0 20px; }
+  .container-txt-sabias-que p.titulo-sabias-que { font-size: 22px; line-height: 24px; }
+  .container-txt-sabias-que p.complemento-sabias-que { font-size: 16px; line-height: 24px; }
+  .container-txt-sabias-que p.conclusion-ahora-lo-sabes { font-size: 17.4943px; line-height: 28px; margin: 0; }
+  .container-txt-sabias-que p.conclusion-momento-de-cambiar { font-size: 12.8906px; line-height: 28px; margin: 0; }
+  .container-txt-sabias-que img { width: 182px; height: 29px; }
+  
+  div#seccion-capitulo3-sabias-que { background-image: url(/cdn/shop/files/background-almohada-colchon.png?v=1664029118); background-repeat: no-repeat; background-position: 50% 0%; background-size: contain; }
+  
+  .container-img-colchon-somier img { display: none; position: initial; }
+
+  .container-img-descansar-es-necesario { margin: -110px 20px 0; }
+  .container-img-descansar-es-necesario img { margin: 0 auto; }
+  .container-img-descansar-es-necesario p.titulo-descansar-es-necesario { font-size: 20px; line-height: 24px; }
+  .container-img-descansar-es-necesario p.descripcion-descansar-es-necesario { font-size: 14px; line-height: 24px; }
+  .container-img-descansar-es-necesario a { font-size: 14px; line-height: 17px; }
+
+  .container-txt-descansar-es-necesario { padding: 30px 0px 0; }
+
+  .container-img-quedarse-en-la-cama { margin: 50px 0 0 0; background-position: 95% 100%; }
+  .container-img-quedarse-en-la-cama img { width: 100%; display: block; padding: 0 15px; margin: 0 auto; }
+
+  .container-img-quedarse-en-la-cama p { padding: 0 15px; }
+  .container-img-quedarse-en-la-cama p.dicho2-ossa-villegas { font-size: 14px; line-height: 17px; padding: 0 15px; }
+  /*Fin Mobile Home*/
+
+  .container-img-capitulo1-tu-colchon-tu-aliado { margin: 0 4%; }
+  
+  .container-txt-capitulo1-tu-colchon-tu-aliado { margin: 0 4%; }
+  .container-txt-capitulo1-tu-colchon-tu-aliado p.cap1-titulo-tu-colchon-tu-aliado { font-size: 20px; line-height: 24px; }
+  .container-txt-capitulo1-tu-colchon-tu-aliado p.cap1-descripcion-tu-colchon-tu-aliado { font-size: 16px; line-height: 24px; }
+
+  div#capitulo-1-un-buen-colchon-lo-es-todo { height: 550px; background-position: 0% 100%; background-size: inherit; }
+  
+  .container-img-un-buen-colchon { margin: 0 4%; }
+  
+  .container-txt-un-buen-colchon { margin: 32px 4% 0; }
+  .container-txt-un-buen-colchon p.cap1-titulo-un-buen-colchon { font-size: 20px; line-height: 22px; }
+  .container-txt-un-buen-colchon p.cap1-descripcion-un-buen-colchon { font-size: 16px; line-height: 24px; }
+  
+  .container-img-musica-y-estiramientos { margin: 55px 33px 0 0; }
+  
+  .container-txt-img-musica-estiramientos { margin: 32px 4% 0; }
+
+  .container-txt-img-musica-estiramientos .cap1-titulo-musica-y-estiramientos { font-size: 20px; line-height: 24px; }
+  .container-txt-img-musica-estiramientos .cap1-descripcion-musica-y-estiramientos { font-size: 16px; line-height: 24px; padding: 0px; margin: 0 0 22px 0; }
+
+  .container-txt-img-preparamen-para-un-gran-dia { margin: 36px 4% 0; }
+  .container-txt-img-preparamen-para-un-gran-dia p.cap1-titulo-prepararme-para-un-gran-dia { font-size: 20px; line-height: 22px; padding: 0; margin: 32px 0 16px 0; }
+  .container-txt-img-preparamen-para-un-gran-dia p.cap1-descrpcion-prepararme-para-un-gran-dia { font-size: 16px; line-height: 24px; padding: 0; }
+
+  .container-img-prepararme-para-un-gran-dia { height: 540px; background-position: 20% 100%; background-size: auto; }
+  .container-img-prepararme-para-un-gran-dia a img { margin: 32px 4% 0; width: 392px; height: auto; display: block; }
+
+  .container-titulo-tips-para-mejorar-tu-dia h1 { font-size: 22px; line-height: 26px; padding: 0 30px; }
+  
+  .container-item-tips-para-mejorar-tu-dia { text-align: center; margin: 0 0 24px 0; }
+
+  .container-cta-cap-anterior { margin: 32px 0 0 0; text-align: center; }
+  .container-cta-cap-siguiente { margin: 72px 0 0 0; justify-content: center; }
+
+  .container-img-capitulo2-escojer-tu-colchon-ideal { margin: 0 4%; }
+
+  .container-txt-capitulo2-escojer-tu-colchon-idel { margin: 0 4%; }
+  .container-txt-capitulo2-escojer-tu-colchon-idel p.cap2-titulo-escojer-tu-colchon-ideal { font-size: 20px; line-height: 24px; }
+  .container-txt-capitulo2-escojer-tu-colchon-idel p.cap2-descripcion-escojer-tu-colchon-ideal { font-size: 16px; line-height: 24px; }
+
+  .container-img-txt-nada-se-mueve { margin: 20px 4% 0; }
+
+  .container-img-txt-nada-se-mueve p.cap2-titulo1-nada-se-mueve { font-size: 18px; line-height: 26px; }
+  .container-txt-img-dormir-limpio p.cap2-titulo1-dormir-limpio { font-size: 18px; line-height: 26px; }
+  .container-img-txt-rendir-mejor p.cap2-titulo1-rendir-mejor { font-size: 18px; line-height: 26px; }
+
+  .container-img-txt-nada-se-mueve p.cap2-titulo2-nada-se-mueve { font-size: 18px; line-height: 26px; }
+  .container-img-txt-nada-se-mueve p.cap2-descripcion-nada-se-mueve { font-size: 16px; line-height: 24px; }
+
+  .container-img-nada-se-mueve { margin: 30px 4% 0; }
+
+  div#capitulo-2-nada-se-mueve-nada-es-nada { height: 780px; background-position: 0% 105%; }
+
+  .container-txt-img-dormir-limpio { margin: 42px 7% 0; }
+
+  .container-img-dormir-limpio { margin: 27px 7% 0; }
+
+  .container-txt-img-dormir-limpio p.cap2-titulo2-dormir-limpio { font-size: 18px; line-height: 26px; }
+  .container-txt-img-dormir-limpio p.cap2-descripcion-dormir-limpio { font-size: 16px; line-height: 24px; }
+
+  .container-img-txt-rendir-mejor { margin: 12px 7% 0; }
+
+  .container-img-txt-rendir-mejor p.cap2-titulo2-rendir-mejor { font-size: 18px; line-height: 26px; }
+  .container-img-txt-rendir-mejor p.cap2-descripcion-rendir-mejor { font-size: 16px; line-height: 24px; }
+
+  .container-img-rendir-mejor { margin: 37px 7% 0; }
+
+  div#capitulo-2-rendir-mejor-gracias-a-tu-colchon { height: 780px; background-position: 0% 100%; }
+
+  .container-img-mejores-colchones { display: none; }
+
+  .container-txt-items-mejores-colchones { margin: 70px 7% 0; }
+
+  .container-txt-items-mejores-colchones p.cap2-titulo-mejores-colchones { font-size: 22px; line-height: 26px; }
+
+  .container-img-cap3-descansar-es-necesario { margin: 0 4%; }
+
+  .container-img-txt-cap3-descansar-es-necesario { margin: 0 4%; }
+
+  .container-img-txt-cap3-descansar-es-necesario p.cap3-titulo-descansar-es-necesario { font-size: 20px; line-height: 24px; }
+  .container-img-txt-cap3-descansar-es-necesario p.cap3-descripcion-descansar-es-necesario { font-size: 16px; line-height: 24px; }
+  .container-img-txt-cap3-descansar-es-necesario p.cap3-complemento-descansar-es-necesario { font-size: 16px; line-height: 24px; }
+
+  .container-img-deja-que-tu-cuerpo-decida { margin: 0 4%; }
+
+  div#capitulo-3-deja-que-tu-cuerpo-decida { height: 570px; }
+
+  .container-txt-deja-que-tu-cuerpo-decida p.cap3-titulo-deja-que-tu-cuerpo-decida { font-size: 20px; line-height: 26px; }
+  .container-txt-deja-que-tu-cuerpo-decida p.cap3-descripcion-deja-que-tu-cuerpo-decida { font-size: 16px; line-height: 24px; }
+  .container-txt-deja-que-tu-cuerpo-decida { margin: 26px 4% 0; }
+
+  .container-img-txt-conexion-desconexion { margin: 0 4%; }
+
+  .container-img-txt-conexion-desconexion p.cap3-titulo-conexion-desconexion { margin: 16px 0; padding: 0; font-size: 20px; line-height: 26px; }
+  .container-img-txt-conexion-desconexion p.cap3-descripcion-conexion-desconexion { padding: 0; margin: 0; font-size: 16px; line-height: 24px; }
+  .container-img-conexion-desconexion { margin: 19px 4% 0; }
+
+  .container-txt-a-mayor-descanso-mas-me-conecto { margin: 25px 4% 0; }
+  .container-txt-a-mayor-descanso-mas-me-conecto p.cap3-titulo-a-mayor-descanso-mas-me-conecto { font-size: 20px; line-height: 26px; padding: 0; }
+  .container-txt-a-mayor-descanso-mas-me-conecto p.cap3-desciprcion-a-mayor-descanso-mas-me-conecto { font-size: 16px; line-height: 24px; }
+
+  .container-img-a-mayor-descanso-mas-ame-conecto { margin: 25px 4% 0; }
+
+  div#capitulo-3-a-mayor-descanso-mas-me-conecto { height: 630px; background-position: 0% 55%; }
+
+  .container-titulo-descansar-tu-cuerpo { margin: 35px 0 38px 0; }
+  .container-titulo-descansar-tu-cuerpo h1 { font-size: 22px; line-height: 26px; }
+
+  .container-item-para-descansar-tu-cuerpo { text-align: center; margin: 0 0 24px 0; }
+}
+@media only screen and (max-width: 414px) {
+  .container-img-prepararme-para-un-gran-dia a img { width: 380px; }
+}
+@media only screen and (max-width: 390px) {
+  .container-img-prepararme-para-un-gran-dia a img { width: 358px; }
+}
+@media only screen and (max-width: 375px) {
+  .container-img-prepararme-para-un-gran-dia a img { width: 346px; }
+  .container-img-quedarse-en-la-cama p { padding: 0 15px; }
+  .container-img-quedarse-en-la-cama p.dicho2-ossa-villegas { padding: 0 15px; }
+}
+@media only screen and (max-width: 360px) {
+  .container-img-prepararme-para-un-gran-dia a img { width: 332px; }
+}
+@media only screen and (max-width: 350px) {
+  .container-img-prepararme-para-un-gran-dia a img { width: 322px; }
+}

@@ -1,0 +1,199 @@
+/** Shopify CDN: Minification failed
+
+Line 177:86 Unexpected "3"
+Line 200:0 Expected "}" to go with "{"
+
+**/
+/* ocultar header */
+/* ocultar footer */
+/* ocultar margin */
+
+#ossa-villegas-0 #MainContent { padding: 0!important; }
+#ossa-villegas-0 header.main-header { display: none!important; }
+#ossa-villegas-0 footer.site-footer { display: none!important; }
+#ossa-villegas-1 #MainContent { padding: 0!important; }
+#ossa-villegas-1 header.main-header { display: none!important; }
+#ossa-villegas-1 footer.site-footer { display: none!important; }
+#ossa-villegas-2 #MainContent { padding: 0!important; }
+#ossa-villegas-2 header.main-header { display: none!important; }
+#ossa-villegas-2 footer.site-footer { display: none!important; }
+#ossa-villegas-3 #MainContent { padding: 0!important; }
+#ossa-villegas-3 header.main-header { display: none!important; }
+#ossa-villegas-3 footer.site-footer { display: none!important; }
+
+
+/* header de la landing 0 */
+
+#ossa-villegas-0 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#ossa-villegas-0 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#ossa-villegas-0 header div.inner-width a img { width: 124px; height: 24px; }
+#ossa-villegas-0 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#ossa-villegas-0 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#ossa-villegas-0 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#ossa-villegas-0 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#ossa-villegas-0 div.navigation-menu nav { display: grid; list-style: none;}
+#ossa-villegas-0 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#ossa-villegas-0 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#ossa-villegas-0 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#ossa-villegas-0 div.navigation-menu a:hover {  }
+#ossa-villegas-0 div.navigation-menu a:hover::before { width: 100%; }
+
+#ossa-villegas-0 div.navigation-menu.active { right: 0; }
+#ossa-villegas-0 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#ossa-villegas-0 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#ossa-villegas-0 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#ossa-villegas-0 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+
+#el-placer-de-descansar header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#el-placer-de-descansar header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#el-placer-de-descansar header div.inner-width a img { width: 124px; height: 24px; }
+#el-placer-de-descansar header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#el-placer-de-descansar header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#el-placer-de-descansar header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#el-placer-de-descansar div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#el-placer-de-descansar div.navigation-menu nav { display: grid; list-style: none;}
+#el-placer-de-descansar div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#el-placer-de-descansar div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#el-placer-de-descansar div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#el-placer-de-descansar div.navigation-menu a:hover {  }
+#el-placer-de-descansar div.navigation-menu a:hover::before { width: 100%; }
+
+#el-placer-de-descansar div.navigation-menu.active { right: 0; }
+#el-placer-de-descansar div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#el-placer-de-descansar div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#el-placer-de-descansar div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#el-placer-de-descansar div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+
+/* header de la landing 1 */
+
+#ossa-villegas-1 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#ossa-villegas-1 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#ossa-villegas-1 header div.inner-width a img { width: 124px; height: 24px; }
+#ossa-villegas-1 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#ossa-villegas-1 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#ossa-villegas-1 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#ossa-villegas-1 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#ossa-villegas-1 div.navigation-menu nav { display: grid; list-style: none;}
+#ossa-villegas-1 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#ossa-villegas-1 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#ossa-villegas-1 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#ossa-villegas-1 div.navigation-menu a:hover {  }
+#ossa-villegas-1 div.navigation-menu a:hover::before { width: 100%; }
+
+#ossa-villegas-1 div.navigation-menu.active { right: 0; }
+#ossa-villegas-1 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#ossa-villegas-1 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#ossa-villegas-1 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#ossa-villegas-1 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+
+#el-placer-de-descansar-1 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#el-placer-de-descansar-1 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#el-placer-de-descansar-1 header div.inner-width a img { width: 124px; height: 24px; }
+#el-placer-de-descansar-1 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#el-placer-de-descansar-1 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#el-placer-de-descansar-1 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#el-placer-de-descansar-1 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#el-placer-de-descansar-1 div.navigation-menu nav { display: grid; list-style: none;}
+#el-placer-de-descansar-1 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#el-placer-de-descansar-1 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#el-placer-de-descansar-1 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#el-placer-de-descansar-1 div.navigation-menu a:hover {  }
+#el-placer-de-descansar-1 div.navigation-menu a:hover::before { width: 100%; }
+
+#el-placer-de-descansar-1 div.navigation-menu.active { right: 0; }
+#el-placer-de-descansar-1 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#el-placer-de-descansar-1 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#el-placer-de-descansar-1 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#el-placer-de-descansar-1 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+/* header de la landing 2 */
+
+#ossa-villegas-2 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#ossa-villegas-2 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#ossa-villegas-2 header div.inner-width a img { width: 124px; height: 24px; }
+#ossa-villegas-2 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#ossa-villegas-2 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#ossa-villegas-2 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#ossa-villegas-2 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#ossa-villegas-2 div.navigation-menu nav { display: grid; list-style: none;}
+#ossa-villegas-2 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#ossa-villegas-2 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#ossa-villegas-2 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#ossa-villegas-2 div.navigation-menu a:hover {  }
+#ossa-villegas-2 div.navigation-menu a:hover::before { width: 100%; }
+
+#ossa-villegas-2 div.navigation-menu.active { right: 0; }
+#ossa-villegas-2 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#ossa-villegas-2 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#ossa-villegas-2 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#ossa-villegas-2 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+
+#el-placer-de-descansar-2 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#el-placer-de-descansar-2 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#el-placer-de-descansar-2 header div.inner-width a img { width: 124px; height: 24px; }
+#el-placer-de-descansar-2 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#el-placer-de-descansar-2 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#el-placer-de-descansar-2 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#el-placer-de-descansar-2 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#el-placer-de-descansar-2 div.navigation-menu nav { display: grid; list-style: none;}
+#el-placer-de-descansar-2 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#el-placer-de-descansar-2 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#el-placer-de-descansar-2 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#el-placer-de-descansar-2 div.navigation-menu a:hover {  }
+#el-placer-de-descansar-2 div.navigation-menu a:hover::before { width: 100%; }
+
+#el-placer-de-descansar-2 div.navigation-menu.active { right: 0; }
+#el-placer-de-descansar-2 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#el-placer-de-descansar-2 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#el-placer-de-descansar-2 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#el-placer-de-descansar-2 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+
+/* header de la landing 3 */
+
+#ossa-villegas-3 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#ossa-villegas-3 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#ossa-villegas-3 header div.inner-width a img { width: 124px; height: 24px; }
+#ossa-villegas-3 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#ossa-villegas-3 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#ossa-villegas-3 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#ossa-villegas-3 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#ossa-villegas-3 div.navigation-menu nav { display: grid; list-style: none;}
+#ossa-villegas-3 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#ossa-villegas-3 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#ossa-villegas-3 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#ossa-villegas-3 div.navigation-menu a:hover {  }
+#ossa-villegas-3 div.navigation-menu a:hover::before { width: 100%; }
+
+#ossa-villegas-3 div.navigation-menu.active { right: 0; }
+#ossa-villegas-3 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#ossa-villegas-3 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#ossa-villegas-3 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#ossa-villegas-3 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; 3
+
+#el-placer-de-descansar-3 header { /*background: linear-gradient(125deg, rgba(254,195,181,1) 0%, rgba(251,231,195,1) 99%);*/ background: #1E3B5E; }
+#el-placer-de-descansar-3 header div.inner-width { max-width: 88%; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; margin: auto; color: #f1f1f1; }
+#el-placer-de-descansar-3 header div.inner-width a img { width: 124px; height: 24px; }
+#el-placer-de-descansar-3 header div.inner-width div.menu-icon { width: 50px; height: 50px; color: #fff; text-align: center; line-height: 50px; font-size: 20px; z-index: 2; border-radius: 10px; cursor: pointer; transition: 0.2s linear; }
+#el-placer-de-descansar-3 header div.inner-width div.menu-icon:hover { opacity: 0.9; transform: scale(1.1); }
+#el-placer-de-descansar-3 header div.inner-width div.menu-icon.active { background: #ED968A; color: #fff; }
+
+#el-placer-de-descansar-3 div.navigation-menu { position: fixed; width: 100%; height: 100vh; background: #2c3a47; top: 0; right: -100%; display: flex; align-items: center; justify-content: center; transition: 0.6s; z-index: 1; }
+#el-placer-de-descansar-3 div.navigation-menu nav { display: grid; list-style: none;}
+#el-placer-de-descansar-3 div.navigation-menu li { margin: 20px 0; overflow: hidden; }
+#el-placer-de-descansar-3 div.navigation-menu a { color: #fff; font-size: 40px; font-weight: 700; position: relativa; display: inline-block; transform: translateY(40px); }
+#el-placer-de-descansar-3 div.navigation-menu a::before { content: ""; position: absolute; width: 0; height: 15px; background: #ED968A; bottom: 0; left: 0; z-index: -1; transition: 0.2s linear; }
+#el-placer-de-descansar-3 div.navigation-menu a:hover {  }
+#el-placer-de-descansar-3 div.navigation-menu a:hover::before { width: 100%; }
+
+#el-placer-de-descansar-3 div.navigation-menu.active { right: 0; }
+#el-placer-de-descansar-3 div.navigation-menu.active a { transform: translateY(0); transition: 0.6s linear; }
+#el-placer-de-descansar-3 div.navigation-menu.active li:nth-child(1) { transition-delay: 0.2s; }
+#el-placer-de-descansar-3 div.navigation-menu.active li:nth-child(2) { transition-delay: 0.4s; }
+#el-placer-de-descansar-3 div.navigation-menu.active li:nth-child(3) { transition-delay: 0.6s; }
+

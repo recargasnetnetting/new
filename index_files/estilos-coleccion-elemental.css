@@ -1,0 +1,555 @@
+/** Shopify CDN: Minification failed
+
+Line 281:106 Expected ":"
+
+**/
+div#bg-elemental { width: 100%; height: auto; display: block; margin: 177px auto 0 auto; float: none; position: relative; }
+
+
+
+/* EXPECTATIVA */
+div#bg-elemental section#coleccion-elemental-expec { width: 100%; height: 708px; display: block; margin: 0 auto; float: none; position: relative; overflow: hidden !important; }
+div#bg-elemental section#coleccion-elemental-expec article { width: 100%; height: 720px; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 2; }
+div#bg-elemental section#coleccion-elemental-expec article > img#logo-elemental { width: 280px; height: auto; display: block; margin: 0 auto; float: none; top: 35%; position: relative; }
+
+@keyframes animaDown {
+	0% { bottom: 10%; }
+	100% { bottom: 7%; }
+}
+
+div#bg-elemental section#coleccion-elemental-expec article a#form-elemental { width: 35px; height: 35px; display: block; margin: 0 auto; float: none; bottom: 10%; left: 49.5%; position: absolute; animation-name: animaDown; animation-duration: 1s; animation-direction: alternate; animation-iteration-count: infinite; animation-play-state: running; transition: all 0.3s ease-in; }
+div#bg-elemental section#coleccion-elemental-expec article a#form-elemental img { width: 28px; height: auto; display: block; margin: 3px auto 0 auto; float: none; transition: all 0.3s ease-in; }
+div#bg-elemental section#coleccion-elemental-expec article a#form-elemental:hover { opacity: 0.75; transition: all 0.15s ease-out; }
+div#bg-elemental section#coleccion-elemental-expec article a#form-elemental:hover img { transition: all 0.15s ease-out; }
+
+div#bg-elemental section#coleccion-elemental-expec video { width: auto; height: 830px; display: block; margin: 0 auto; float: none; position: absolute; top: -20px; left: 0; z-index: 1; }
+div#bg-elemental section#coleccion-elemental-expec video source { width: 100%; height: 800vh; display: block; margin: 0 auto; float: none; position: relative; }
+
+div#bg-elemental section#coleccion-elemental-expec video#top-expec-mobile { display: none; }
+
+
+
+/* FASHION FILM */
+div#bg-elemental section#fashion-film { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#fashion-film img#logo-elemental { width: 20%; height: auto; display: block; margin: 0 auto; float: none; top: 40%; left: 40%; z-index: 10; position: absolute; }
+div#bg-elemental section#fashion-film video { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#fashion-film video source { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+
+
+/* SIMETRIA NATURAL */
+div#bg-elemental section#intro-simetria-natural { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/bg-gris.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#intro-simetria-natural article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0 64px; }
+div#bg-elemental section#intro-simetria-natural article h2 { color: #fff; font-family: 'Lato'; font-size: 2em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-simetria-natural article hr { width: 50%; height: 2px; display: block; margin: 0 auto 32px !important; float: none; position: relative; border-radius: 5px; border: none; background: #404145; }
+div#bg-elemental section#intro-simetria-natural article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-simetria-natural article img { width: 300px; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+
+
+div#bg-elemental section#carrusel-simetria-natural { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: #fff; }
+div#bg-elemental section#carrusel-simetria-natural article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 64px 0; }
+div#bg-elemental section#carrusel-simetria-natural article figure#desktop-carrusel-simetria { width: 100%; height: 267px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#carrusel-simetria-natural article figure#desktop-carrusel-simetria img { width: 267px; height: 267px; display: block; margin: 0 10px 0 0; float: left; }
+div#bg-elemental section#carrusel-simetria-natural article figure#desktop-carrusel-simetria img:last-child { margin: 0; }
+div#bg-elemental section#carrusel-simetria-natural article figure#mobile-carrusel-simetria { width: 290px; height: 290px; display: none; margin: 0 auto; float: none; position: relative; }
+
+
+/* SLIDER NUEVO SHOPIFY SIMETRIA NATURAL */
+#slider-simetria-natural { padding: 0; }
+#slider-simetria-natural .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-simetria-natural .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-simetria-natural .cont-slides-home .slick-list .slick-slide img { width: auto; height: auto; }
+#slider-simetria-natural .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-simetria-natural .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY banner-funcionalidad */
+#slider-banner-funcionalidad { padding: 0; }
+#slider-banner-funcionalidad .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-funcionalidad .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-banner-funcionalidad .cont-slides-home .slick-list .slick-slide img { width: auto; height: auto; }
+#slider-banner-funcionalidad .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-funcionalidad .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY banner-colores */
+#slider-banner-colores-elemental { padding: 0; }
+#slider-banner-colores-elemental .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-colores-elemental .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-banner-colores-elemental .cont-slides-home .slick-list .slick-slide img { width: auto; height: auto; }
+#slider-banner-colores-elemental .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-colores-elemental .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY banner-texturas */
+#slider-banner-texturas { padding: 0; }
+#slider-banner-texturas .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-texturas .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-banner-texturas .cont-slides-home .slick-list .slick-slide img { width: 110%; height: 110%; max-width: 110%; max-height: 110%; }
+#slider-banner-texturas .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-banner-texturas .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY mobile-carrusel-simetria */
+#slider-mobile-carrusel-simetria { padding: 0; }
+#slider-mobile-carrusel-simetria .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-simetria .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-mobile-carrusel-simetria .cont-slides-home .slick-list .slick-slide img { width: 100%; height: 100%; max-width: 100%; max-height: 100%; }
+#slider-mobile-carrusel-simetria .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-simetria .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY mobile-carrusel-funcionalidad */
+#slider-mobile-carrusel-funcionalidad { padding: 0; }
+#slider-mobile-carrusel-funcionalidad .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-funcionalidad .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-mobile-carrusel-funcionalidad .cont-slides-home .slick-list .slick-slide img { width: 100%; height: 100%; max-width: 100%; max-height: 100%; }
+#slider-mobile-carrusel-funcionalidad .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-funcionalidad .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+/* SLIDER NUEVO SHOPIFY mobile-carrusel-colores */
+#slider-mobile-carrusel-colores { padding: 0; }
+#slider-mobile-carrusel-colores .cont-slides-home .slick-arrow.slick-next { display: inline-block!important; top: 50%!important; right: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-colores .cont-slides-home .slick-arrow.slick-next:before { content: url(/cdn/shop/files/arrow-next-ases.svg?v=1657558242); }
+#slider-mobile-carrusel-colores .cont-slides-home .slick-list .slick-slide img { width: 100%; height: 100%; max-width: 100%; max-height: 100%; }
+#slider-mobile-carrusel-colores .cont-slides-home .slick-arrow.slick-prev { display: inline-block!important; top: 50%!important; left: 20px!important; width: 40px!important; height: 45px!important; float: none!important; z-index: 8!important; background: transparent!important; box-shadow: none!important; color: #929FB1!important; position: absolute!important; }
+#slider-mobile-carrusel-colores .cont-slides-home .slick-arrow.slick-prev:before { content: url(/cdn/shop/files/arrow-prev-ases.svg?v=1657558242); }
+
+
+div#bg-elemental section#banner-simetria-natural { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/simetria-01.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#banner-simetria-natural article { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; background: rgba(0,0,0,0.35); }
+div#bg-elemental section#banner-simetria-natural article figure { width: 640px; height: 570px; display: block; margin: 0 auto; float: none; position: relative; }
+
+div#bg-elemental section#banner-simetria-natural article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto; }
+
+
+
+/* PRODUCTOS SIMETRIA COL */
+div#bg-elemental section#productos-simetria-natural { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0;}
+div#bg-elemental section#productos-simetria-natural article { width: 1100px; height: 683px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-simetria-natural article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-simetria-natural article nav a { height: auto; display: block; float: left; position: relative; overflow: hidden; border-radius: 3px; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-simetria-natural article nav a:nth-child(1) { width: 100%; margin: 0 auto 12px; float: none; }
+div#bg-elemental section#productos-simetria-natural article nav a:nth-child(2) { width: 245px; margin: 0 12px 0 0; float: left; }
+div#bg-elemental section#productos-simetria-natural article nav a:nth-child(3) { width: 277px; margin: 0 12px 0 0; float: left; }
+div#bg-elemental section#productos-simetria-natural article nav a:nth-child(4) { width: 355px; margin: 0 12px 0 0; float: left; }
+div#bg-elemental section#productos-simetria-natural article nav a:nth-child(5) { width: 187px; margin: 0; float: left; }
+
+div#bg-elemental section#productos-simetria-natural article nav a span.to-shop { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 5; background: url('/cdn/shop/files/shop.svg?v=1659371430') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('/cdn/shop/files/shop-hover.svg?v=1659371430') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('/cdn/shop/files/shop-hover.svg?v=1659371430') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-simetria-natural article nav a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+div#bg-elemental section#productos-simetria-natural article nav a img:nth-child(2) { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural article nav a:hover { opacity: 0.9; transition: all 0.15s ease-out; }
+div#bg-elemental section#productos-simetria-natural article nav a:hover img:nth-child(2) { transform: scale(1.01); transition: all 0.15s ease-out; }
+div#bg-elemental section#productos-simetria-natural article nav a:hover img.to-shop { transition: all 0.3s ease-in; }
+
+
+
+/* PRODUCTOS SIMETRIA PAN */
+div#bg-elemental section#productos-simetria-natural-pan { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-simetria-natural-pan article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; }
+div#bg-elemental section#productos-simetria-natural-pan article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a { height: auto; display: inline-block; float: none; position: relative; overflow: hidden; border-radius: 3px; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-simetria-natural-pan article nav a:nth-child(1) { width: 100%; margin: 0 auto 2%; float: none; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a:nth-child(2) { width: 48%; margin: 0 3% 0 0; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a:nth-child(3) { width: 48%; margin: 0; }
+
+div#bg-elemental section#productos-simetria-natural-pan article nav a span.to-shop { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 5; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop-hover.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop-hover.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-simetria-natural-pan article nav a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+div#bg-elemental section#productos-simetria-natural-pan article nav a img:nth-child(2) { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a:hover { opacity: 0.9; transition: all 0.15s ease-out; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a:hover img:nth-child(2) { transform: scale(1.01); transition: all 0.15s ease-out; }
+div#bg-elemental section#productos-simetria-natural-pan article nav a:hover img.to-shop { transition: all 0.3s ease-in; }
+
+
+
+/* FUNCIONALIDAD */
+div#bg-elemental section#intro-funcionalidad { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/bg-gris.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#intro-funcionalidad article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0 64px; }
+div#bg-elemental section#intro-funcionalidad article h2 { color: #fff; font-family: 'Lato'; font-size: 2em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-funcionalidad article hr { width: 50%; height: 2px; display: block; margin: 0 auto 32px !important; float: none; position: relative; border-radius: 5px; border: none; background: #404145; }
+div#bg-elemental section#intro-funcionalidad article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-funcionalidad article img { width: 216px; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+
+
+div#bg-elemental section#carrusel-funcionalidad { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: #fff; }
+div#bg-elemental section#carrusel-funcionalidad article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 64px 0; }
+div#bg-elemental section#carrusel-funcionalidad article figure#desktop-carrusel-funcionalidad { width: 100%; height: 267px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#carrusel-funcionalidad article figure#desktop-carrusel-funcionalidad img { width: 267px; height: 267px; display: block; margin: 0 10px 0 0; float: left; }
+div#bg-elemental section#carrusel-funcionalidad article figure#desktop-carrusel-funcionalidad img:last-child { margin: 0; }
+div#bg-elemental section#carrusel-funcionalidad article figure#mobile-carrusel-funcionalidad { width: 290px; height: 290px; display: none; margin: 0 auto; float: none; position: relative; }
+
+
+
+div#bg-elemental section#banner-funcionalidad { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/funcionalidad-bg.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#banner-funcionalidad article { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; background: rgba(0,0,0,0.35); }
+div#bg-elemental section#banner-funcionalidad article figure { width: 640px; height: 570px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#banner-funcionalidad article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto; }
+
+
+
+/* PRODUCTOS FUNCIONALIDAD COL */
+div#bg-elemental section#productos-funcionalidad { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; }
+div#bg-elemental section#productos-funcionalidad article { width: 1100px; height: 206px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-funcionalidad article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-funcionalidad article nav a { height: auto; display: block; margin: 0 12px 0 0; float: left; position: relative; overflow: hidden; border-radius: 3px; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-funcionalidad article nav a:nth-child(1) { width: 247px; }
+div#bg-elemental section#productos-funcionalidad article nav a:nth-child(2) { width: 138px; }
+div#bg-elemental section#productos-funcionalidad article nav a:nth-child(3) { width: 294px; }
+div#bg-elemental section#productos-funcionalidad article nav a:nth-child(4) { width: 188px; }
+div#bg-elemental section#productos-funcionalidad article nav a:nth-child(5) { width: 183px; margin: 0; }
+
+div#bg-elemental section#productos-funcionalidad article nav a span.to-shop { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 5; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-funcionalidad article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop-hover.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-funcionalidad article nav a:hover span.to-shop { opacity: 0; transition: all 0.15s ease-out; }
+
+
+
+/* PRODUCTOS FUNCIONALIDAD PAN */
+div#bg-elemental section#productos-funcionalidad-pan { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-funcionalidad-pan article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; }
+div#bg-elemental section#productos-funcionalidad-pan article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-funcionalidad-pan article nav a { height: auto; display: inline-block; margin: 0 12px 0 0; float: none; position: relative; overflow: hidden; border-radius: 3px; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-funcionalidad-pan article nav a:nth-child(1) { width: 100%; margin: 0 auto 2%; }
+div#bg-elemental section#productos-funcionalidad-pan article nav a:nth-child(2) { width: 61.5%; margin: 0 3% 0 0; }
+div#bg-elemental section#productos-funcionalidad-pan article nav a:nth-child(3) { width: 34.5%; margin: 0; }
+
+div#bg-elemental section#productos-funcionalidad-pan article nav a span.to-shop { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 5; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-funcionalidad-pan article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop-hover.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-funcionalidad-pan article nav a:hover span.to-shop { opacity: 0; transition: all 0.15s ease-out; }
+
+
+
+/* COLORES */
+div#bg-elemental section#intro-colores { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/bg-gris.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#intro-colores article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0 64px; }
+div#bg-elemental section#intro-colores article h2 { color: #fff; font-family: 'Lato'; font-size: 2em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-colores article hr { width: 50%; height: 2px; display: block; margin: 0 auto 32px !important; float: none; position: relative; border-radius: 5px; border: none; background: #404145; }
+div#bg-elemental section#intro-colores article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto 32px; }
+div#bg-elemental section#intro-colores article img { width: 293px; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+
+
+
+div#bg-elemental section#carrusel-colores { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: #fff; }
+div#bg-elemental section#carrusel-colores article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 64px 0; }
+div#bg-elemental section#carrusel-colores article figure#desktop-carrusel-colores { width: 100%; height: 267px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#carrusel-colores article figure#desktop-carrusel-colores img { width: 267px; height: 267px; display: block; margin: 0 10px 0 0; float: left; }
+div#bg-elemental section#carrusel-colores article figure#desktop-carrusel-colores img:last-child { margin: 0; }
+div#bg-elemental section#carrusel-colores article figure#mobile-carrusel-colores { width: 290px; height: 290px; display: none; margin: 0 auto; float: none; position: relative; }
+
+
+
+div#bg-elemental section#banner-colores { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/colores-bg.jpeg') no-repeat top center; background-size: cover; }
+div#bg-elemental section#banner-colores article { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; background: rgba(0,0,0,0.35); }
+div#bg-elemental section#banner-colores article figure { width: 640px; height: 570px; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#banner-colores article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto; }
+
+
+
+div#bg-elemental section#productos-colores-pan { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-colores-pan article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; }
+div#bg-elemental section#productos-colores-pan article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#productos-colores-pan article nav a { height: auto; display: inline-block; margin: 0 12px 0 0; float: none; position: relative; overflow: hidden; border-radius: 3px; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#productos-colores-pan article nav a:nth-child(1) { width: 100%; margin: 0 auto 2%; }
+div#bg-elemental section#productos-colores-pan article nav a:nth-child(2) { width: 58.5%; margin: 0 2.5% 0 0; }
+div#bg-elemental section#productos-colores-pan article nav a:nth-child(3) { width: 38%; margin: 0; }
+
+div#bg-elemental section#productos-colores-pan article nav a span.to-shop { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 5; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-colores-pan article nav a span.to-shop-hover { width: 32px; height: 32px; display: block; margin: 0; float: none; position: absolute; bottom: 12px; right: 12px; z-index: 4; background: url('https://blogqas.wpengine.com/wp-content/uploads/shop-hover.svg') no-repeat top center; background-size: cover; transition: all 0.3s ease-in; }
+div#bg-elemental section#productos-colores-pan article nav a:hover span.to-shop { opacity: 0; transition: all 0.15s ease-out; }
+	
+
+
+/* FORMULARIO ELEMENTAL */
+div#bg-elemental section#formulario-elemental { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#formulario-elemental article { width: 750px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; }
+div#bg-elemental section#formulario-elemental article h2 { color: #6D6D6D; font-family: 'Lato'; sans-serif !important; text-align: center; margin: 0 auto 16px auto !important; }
+div#bg-elemental section#formulario-elemental article p { color: #6D6D6D; font-family: 'Lato'; text-align: center; font-weight: 300; margin: 0 auto 32px; font-size: 1.35em; line-height: 1.35em; margin-bottom: 32px; }
+
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input { width: 100%; border-radius: 3px; margin-bottom: 10px; }
+
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input:not([type=text]),
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input:not([type=email]) { background: #f0f0f0 !important; color: #6D6D6D !important; transition: all 0.3s ease-in; }
+
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input:focus([type=text]),
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input:focus([type=email]) { background: #6D6D6D !important; color: #fff !important; transition: all 0.15s ease-out; }
+
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar input::placeholder { font-family: 'Lato'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 17px; color: #868786; }
+
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar button#btnFormColeccionElemental { color: #fff; border: none; border-radius: 3px; background-color: #787878; font-family: 'Lato'; font-size: 16px; font-weight: 600; width: 175px; height: 45px; margin: 0 auto; display: block; transition: all 0.3s ease-in; }
+div#bg-elemental section#formulario-elemental article .formulario-colecciones-jamar button#btnFormColeccionElemental:hover { text-decoration: none; color: #fff; width: 190px; background: #999 !important; transition: all 0.3s ease-in; }
+
+
+/* CUENTA REGRESIVA */
+div#bg-elemental section#regresiva-elemental { width: 100%; height: 520px; display: block; margin: 0 auto; float: none; position: relative; overflow: hidden; background: transparent; }
+div#bg-elemental section#regresiva-elemental article { width: 100%; height: 520px; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 5; background: rgba(0,0,0,0.35); }
+
+div#bg-elemental section#regresiva-elemental article figure { width: 750px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 124px 0 154px; }
+div#bg-elemental section#regresiva-elemental article figure p { color: #fff; text-align: center; font-weight: 300; margin: 0 auto 48px; font-size: 22px; line-height: 22px; font-weight: 400; letter-spacing: 0.035em; }
+div#bg-elemental section#regresiva-elemental article figure p:last-child { margin: 0 auto; }
+div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown { width: 100%; height: 100px; display: block; margin: 0 auto 48px; float: none; position: relative; }
+div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown div.box-countdown { width: 25%; height: 100px; display: block; margin: 0; float: left; position: relative; }
+div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown div.box-countdown span { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; color: #fff; font-family: 'Tenor Sans', sans-serif !important; text-align: center; font-size: 4.15em; line-height: 1em; }
+div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown div.box-countdown p { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; color: #fff; text-align: center; font-weight: 400; font-size: 18px; line-height: 22px; text-transform: uppercase; }
+
+div#bg-elemental section#regresiva-elemental video { width: auto; height: 860px; display: block; margin: 0 auto; float: none; position: absolute; bottom: -60px; left: 0; z-index: 4; }
+div#bg-elemental section#regresiva-elemental video source { width: 100%; height: 800px; display: block; margin: 0 auto; float: none; position: relative; }
+
+
+
+/* Banner Texturas */
+div#bg-elemental section#banner-texturas { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/texturas-bg.jpeg') no-repeat bottom center fixed; background-size: cover; }
+div#bg-elemental section#banner-texturas article { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 96px 0; background: rgba(0,0,0,0.35); }
+div#bg-elemental section#banner-texturas article figure { width: 290px; height: 290px; display: block; margin: 0 auto 32px; float: none; position: relative; }
+div#bg-elemental section#banner-texturas article p { color: #fff; font-family: 'Lato'; font-size: 1.25em; line-height: 1em; text-align: center; margin: 0 auto; }
+
+
+
+/* Zona eCommerce */
+div#bg-elemental section#zona-ecommerce { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: #fff; }
+div#bg-elemental section#zona-ecommerce article { width: 1100px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 64px 0; }
+div#bg-elemental section#zona-ecommerce article > img { width: 290px; height: auto; display: block; margin: 0 auto 32px; float: none; position: relative; }
+div#bg-elemental section#zona-ecommerce article nav { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#bg-elemental section#zona-ecommerce article nav a { width: 242px; height: auto; display: block; margin: 16px; float: left; position: relative; overflow: hidden; transition: all 0.3s ease-in; }
+div#bg-elemental section#zona-ecommerce article nav a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; border-radius: 3px; transition: all 0.3s ease-in; }
+div#bg-elemental section#zona-ecommerce article nav a span.txt-producto { width: 100%; height: auto; min-height: 34px; display: block; margin: 12px 0 8px; float: none; position: relative; font-family: 'Lato', sans-serif; font-size: 0.95em; line-height: 1.05em; text-align: left; color: #6D6D6D; font-weight: 400; letter-spacing: 0.015em; transition: all 0.3s ease-in; }
+div#bg-elemental section#zona-ecommerce article nav a span.link-producto { font-family: 'Lato', sans-serif; font-size: 0.7em; line-height: 1em; text-align: center; margin: 0; display: block; width: 90px; color: #6D6D6D; background: #fff; border: solid 1px #6D6D6D; border-radius: 25px; padding: 6px 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.035em; transition: all 0.3s ease-in; }
+div#bg-elemental section#zona-ecommerce article nav a:hover { transition: all 0.15s ease-out; }
+div#bg-elemental section#zona-ecommerce article nav a:hover img { transform: scale(1.01); transition: all 0.15s ease-out; }
+div#bg-elemental section#zona-ecommerce article nav a:hover span.txt-producto { color: #999; transition: all 0.15s ease-out; }
+div#bg-elemental section#zona-ecommerce article nav a:hover span.link-producto { width: 90px; color: #fff; background: #6D6D6D; border: solid 1px #fff; cursor: pointer !important; transition: all 0.15s ease-out; }
+
+
+
+/* Home ELEMENTAL */
+div#seccion-elemental-home { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#seccion-elemental-home section#seccion-home { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#seccion-elemental-home section#seccion-home article { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: url('https://blogqas.wpengine.com/wp-content/uploads/texturas-bg.jpeg') no-repeat top center; background-size: cover; padding: 64px 0; }
+div#seccion-elemental-home section#seccion-home article div#box-carrusel-especiales { width: 496px; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+div#seccion-elemental-home section#seccion-home article div#box-carrusel-especiales > img { width: 50%; height: auto; display: block; margin: 0; float: none; position: absolute; top: 10%; left: 0; z-index: 9; padding: 0 25%; }
+
+div#seccion-elemental-home section#seccion-home article figure { width: 496px; height: auto; display: block; margin: 0 auto; float: none; position: relative; padding: 48px 0; background: -moz-linear-gradient(top,  rgba(85,85,85,0.55) 0%, rgba(85,85,85,1) 100%); background: -webkit-linear-gradient(top,  rgba(85,85,85,0.55) 0%,rgba(85,85,85,1) 100%); background: linear-gradient(to bottom,  rgba(85,85,85,0.55) 0%,rgba(85,85,85,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c555555', endColorstr='#555555',GradientType=0 ); }
+div#seccion-elemental-home section#seccion-home article figure p { color: #fff; font-size: 1.15em; line-height: 1.25em; text-align: center; margin: 0 auto; padding: 0 48px 24px 48px; }
+div#seccion-elemental-home section#seccion-home article figure a { width: 195px; height: auto; display: block; margin: 0 auto; float: none; position: relative; background: #fff; font-size: 1em; line-height: 1em; text-align: center; color: #555; text-decoration: none; padding: 8px 12px; border-radius: 25px; letter-spacing: 0.035em; transition: all 0.3s ease-in; }
+div#seccion-elemental-home section#seccion-home article figure a:hover { background: #555; color: #fff; transition: all 0.15s ease-out; }
+
+div#seccion-elemental-home section#seccion-home img#beneficio-banner { width: 750px; height: auto; display: block; margin: 32px auto 0 auto; float: none; position: relative; }
+
+.page-id-12160 div#seccion-elemental-home section#seccion-home article { padding: 132px 0; }
+
+
+
+@media only screen and (max-width: 1199px) {
+    div#bg-elemental { margin: 79px auto 0; }
+	div#bg-elemental section#intro-simetria-natural article,
+	div#bg-elemental section#intro-funcionalidad article,
+	div#bg-elemental section#intro-colores article { width: 80%; }
+	
+	div#bg-elemental section#zona-ecommerce article { width: 550px; }
+	
+	div#bg-elemental section#carrusel-texturas article { width: 80%; height: 480px; padding: 64px 0; }
+	
+	
+	
+	div#bg-elemental section#carrusel-simetria-natural article { width: 267px; padding: 24px 0; }
+	div#bg-elemental section#carrusel-simetria-natural article figure#desktop-carrusel-simetria { display: none; }
+	div#bg-elemental section#carrusel-simetria-natural article figure#mobile-carrusel-simetria { width: 267px; height: auto; display: block; }
+	
+	
+	
+	div#bg-elemental section#fashion-film img#logo-elemental { width: 40%; left: 30%; }
+	
+	
+	
+	div#bg-elemental section#productos-simetria-natural article { width: 430px; height: auto; padding: 48px 0; }
+	div#bg-elemental section#productos-simetria-natural article nav a { display: inline-block; float: none; }
+
+	div#bg-elemental section#productos-simetria-natural article nav a:nth-child(1) { width: 100%; margin: 0 auto 12px; float: none; display: block; }
+	div#bg-elemental section#productos-simetria-natural article nav a:nth-child(2) { width: 45%; margin: 0 2% 3% 0; float: none; }
+	div#bg-elemental section#productos-simetria-natural article nav a:nth-child(3) { width: 51%; margin: 0 0 3% 0; float: none; }
+	div#bg-elemental section#productos-simetria-natural article nav a:nth-child(4) { width: 62.5%; margin: 0 3% 0 0; float: none; }
+	div#bg-elemental section#productos-simetria-natural article nav a:nth-child(5) { width: 33%; margin: 0; float: none; }
+	
+	
+	
+	div#bg-elemental section#productos-simetria-natural-pan article { width: 430px; padding: 48px 0; }
+	
+	
+	
+	div#bg-elemental section#banner-simetria-natural article { padding: 64px 0; }
+	div#bg-elemental section#banner-simetria-natural article figure { width: 290px; height: 290px; margin: 0 auto 24px; }
+	div#bg-elemental section#banner-simetria-natural article p { font-size: 1.15em; line-height: 1.25em; padding: 0 32px; }
+	
+	
+	
+	div#bg-elemental section#carrusel-funcionalidad article { width: 267px; padding: 24px 0; }
+	div#bg-elemental section#carrusel-funcionalidad article figure#desktop-carrusel-funcionalidad { display: none; }
+	div#bg-elemental section#carrusel-funcionalidad article figure#mobile-carrusel-funcionalidad { width: 267px; height: 267px; display: block; }
+	
+	
+	
+	div#bg-elemental section#productos-funcionalidad article { width: 430px; height: auto; padding: 48px 0; }
+	div#bg-elemental section#productos-funcionalidad article nav a { display: inline-block; float: none; }
+
+	div#bg-elemental section#productos-funcionalidad article nav a:nth-child(1) { width: 61.7%; margin: 0 2.5% 3px 0; float: none; }
+	div#bg-elemental section#productos-funcionalidad article nav a:nth-child(2) { width: 34.5%; margin: 0 0 3px 0; float: none; }
+	div#bg-elemental section#productos-funcionalidad article nav a:nth-child(3) { width: 100%; margin: 3% auto 3%; float: none; display: inline-block; }
+	div#bg-elemental section#productos-funcionalidad article nav a:nth-child(4) { width: 48.5%; margin: 0 2.5% 0 0; float: none; }
+	div#bg-elemental section#productos-funcionalidad article nav a:nth-child(5) { width: 47%; margin: 0; float: none; }
+	
+	
+	
+	div#bg-elemental section#productos-funcionalidad-pan article { width: 430px; height: auto; padding: 48px 0; }
+	
+	
+	
+	div#bg-elemental section#banner-funcionalidad article { padding: 64px 0; }
+	div#bg-elemental section#banner-funcionalidad article figure { width: 290px; height: 290px; margin: 0 auto 24px; }
+	div#bg-elemental section#banner-funcionalidad article p { font-size: 1.15em; line-height: 1.25em; padding: 0 32px; }
+	
+	
+	
+	div#bg-elemental section#banner-colores article { padding: 64px 0; }
+	div#bg-elemental section#banner-colores article figure { width: 290px; height: 290px; margin: 0 auto 24px; }
+	div#bg-elemental section#banner-colores article p { font-size: 1.15em; line-height: 1.25em; padding: 0 32px; }
+	
+	
+	
+	div#bg-elemental section#productos-colores-pan article { width: 430px; padding: 48px 0; }
+	
+	
+	
+	div#bg-elemental section#carrusel-colores article { width: 267px; padding: 24px 0; }
+	div#bg-elemental section#carrusel-colores article figure#desktop-carrusel-colores { display: none; }
+	div#bg-elemental section#carrusel-colores article figure#mobile-carrusel-colores { width: 267px; height: 267px; display: block; }
+	
+	
+	
+	div#bg-elemental section#banner-texturas article { padding: 64px 0; }
+	div#bg-elemental section#banner-texturas article figure { width: 290px; height: 290px; margin: 0 auto 24px; }
+	div#bg-elemental section#banner-texturas article p { font-size: 1.15em; line-height: 1.25em; padding: 0 32px; }
+	
+	
+
+	div#seccion-elemental-home section#seccion-home article img#beneficio-banner { width: 90%; }
+}
+
+@media only screen and (max-width: 499px) {
+    div#bg-elemental { margin: 102px auto 0; }
+	div#bg-elemental section#coleccion-elemental-expec { height: 450px; }
+	div#bg-elemental section#coleccion-elemental-expec article { height: 450px; }
+	div#bg-elemental section#coleccion-elemental-expec article > img#logo-elemental { width: 280px; top: 40%; }
+	div#bg-elemental section#coleccion-elemental-expec video { height: 600px; }
+	div#bg-elemental section#coleccion-elemental-expec video source { height: 600px; }
+	
+	div#bg-elemental section#coleccion-elemental-expec video#top-expec-desktop { display: none !important; }
+	
+	div#bg-elemental section#coleccion-elemental-expec video#top-expec-mobile { display: block; height: 119vh; }
+	div#bg-elemental section#coleccion-elemental-expec video#top-expec-mobile source { height: 600px; }
+	
+	div#bg-elemental section#regresiva-elemental video#video-foo-desktop { display: none; }
+	
+	div#bg-elemental section#coleccion-elemental-expec article a#form-elemental { display: none !important; }
+	
+	
+	
+	div#bg-elemental section#fashion-film img#logo-elemental { width: 50%; left: 25%; top: 35%; }
+	
+	
+	
+	div#bg-elemental section#formulario-elemental article { width: 80%; padding: 64px 0; }
+	div#bg-elemental section#formulario-elemental article #nf-form-4-cont,
+	div#bg-elemental section#formulario-elemental article #nf-form-5-cont { width: 100%; }
+	
+	
+	
+	div#bg-elemental section#regresiva-elemental { height: 500px; background: url('https://blogqas.wpengine.com/wp-content/uploads/elemental-bg-countdown.png') no-repeat top center; background-size: cover; }
+	div#bg-elemental section#regresiva-elemental article { height: 500px; }
+
+	div#bg-elemental section#regresiva-elemental article figure { width: 80%; padding: 64px 0 84px; }
+	div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown { height: 200px; }
+	div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown div.box-countdown { width: 50%; height: 100px; margin: 0; }
+	div#bg-elemental section#regresiva-elemental article figure p { font-size: 16px; line-height: 18px; }
+	div#bg-elemental section#regresiva-elemental article figure div#bloque-countdown div.box-countdown p { font-size: 14px; line-height: 18px; }
+
+	div#bg-elemental section#regresiva-elemental video { height: 500px; }
+	div#bg-elemental section#regresiva-elemental video source { height: 500px; }
+	
+	
+	
+	div#bg-elemental section#carrusel-texturas article { width: 80%; height: 380px; padding: 48px 0; }
+	
+	
+	
+	div#bg-elemental section#intro-simetria-natural article,
+	div#bg-elemental section#intro-funcionalidad article,
+	div#bg-elemental section#intro-colores article { width: 90%; }
+	
+	div#bg-elemental section#intro-simetria-natural article p,
+	div#bg-elemental section#intro-funcionalidad article p,
+	div#bg-elemental section#intro-colores article p { line-height: 1.25em; }
+	
+	
+	
+	div#bg-elemental section#zona-ecommerce article { width: 100%; }
+	div#bg-elemental section#zona-ecommerce article nav a { width: 45.5%; margin: 2%; float: none; display: inline-block; }
+	div#bg-elemental section#zona-ecommerce article nav a span.txt-producto { min-height: 28px; font-size: 0.85em; line-height: 1em; }
+	
+	
+	
+	div#seccion-elemental-home section#seccion-home article { margin: 0 auto; }
+	div#seccion-elemental-home section#seccion-home article div#box-carrusel-especiales { width: 80%; }
+	
+	div#seccion-elemental-home section#seccion-home article figure { width: 80%; margin: 0 auto 24px; padding: 32px 0; }
+	
+	
+	
+	.page-id-12160 div#seccion-elemental-home section#seccion-home article { padding: 96px 0; }
+}
+
+@media only screen and (max-width: 449px){
+    div#bg-elemental section#productos-simetria-natural { padding: 0; }
+	div#bg-elemental section#productos-simetria-natural article { width: 380px; }
+	div#bg-elemental section#productos-simetria-natural-pan article { width: 380px; }
+
+    div#bg-elemental section#productos-funcionalidad { padding: 0; }
+	div#bg-elemental section#productos-funcionalidad article { width: 380px; }
+	div#bg-elemental section#productos-funcionalidad-pan article { width: 380px; }
+	
+	div#bg-elemental section#productos-colores-pan article { width: 380px; }
+}
+
+@media only screen and (max-width: 399px){
+	div#bg-elemental section#productos-simetria-natural article { width: 330px; }
+	div#bg-elemental section#productos-simetria-natural-pan article { width: 330px; }
+	
+	div#bg-elemental section#productos-funcionalidad article { width: 330px; }
+	div#bg-elemental section#productos-funcionalidad-pan article { width: 330px; }
+	
+	div#bg-elemental section#productos-colores-pan article { width: 330px; }
+}
+
+@media only screen and (max-width: 349px){
+	div#bg-elemental section#productos-simetria-natural article { width: 290px; }
+	div#bg-elemental section#productos-simetria-natural-pan article { width: 290px; }
+	
+	div#bg-elemental section#productos-funcionalidad article { width: 290px; }
+	div#bg-elemental section#productos-funcionalidad-pan article { width: 290px; }
+	
+	div#bg-elemental section#productos-colores-pan article { width: 290px; }
+}

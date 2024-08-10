@@ -1,0 +1,27 @@
+class Vendedor{constructor(name,ciudad,tel,id){this.name=name,this.ciudad=ciudad,this.tel=tel,this.id=id}vende(){var arrayNameVendor=["ANDREA VARGAS","Angie Pacheco","JAMAR"],arrayTelVendor=["3017599876","3022849059","3168762355"],posicionArrayVendor=Math.floor(Math.random()*arrayTelVendor.length),telVendor=arrayTelVendor[posicionArrayVendor],nameVendor=arrayNameVendor[posicionArrayVendor];return this.ciudad=="CARTAGENA"?$("#preguntas").append(`
+                <div class="msj animated fadeInLeft">
+				<p> Nuestro vendedor <span>CARLOS BARRERA</span> est\xE1 en la ciudad de ${this.ciudad} listo para atenderte desde tu Whatsapp</p>
+					<a href="https://wa.me/+573228628652?text="Hello" target="_blank" id="chat+${this.id}"> <span style="margin: 0 auto;">Abrir Whatsapp</span> <span id="${this.id}"></span></a>
+				</div>
+            `):$("#preguntas").append(`
+                <div class="msj animated fadeInLeft">
+<p> Nuestro vendedor <span>${nameVendor}</span> est\xE1 en la ciudad de ${this.ciudad} listo para atenderte desde tu Whatsapp</p>
+<a href="https://wa.me/57${telVendor}" target="_blank" id="chat+${this.id}"> <span style="margin: 0 auto;">Abrir Whatsapp</span> <span id="${this.id}"></span></a>
+				</div>
+            `)}}const url="https://gist.githubusercontent.com/jpaltahona/a936c5d2f5d4109df3ff3cf710fa7168/raw/ca5a924573611b6eb5fad94d2e57976e620b9662/clients.json";function cargar(){fetch(url).then(data=>data.json()).then(data=>{var contentData="";for(let i=0;i<=data.vendedores.length;i++)contentData+=`<ul class="content animated bounceInLeft">
+            <li>${data.vendedores[3].name}</li>
+        </ul>
+              `;return datos=[data]})}var optionsChat=["Consulta de saldo o Pago de cuotas","Asesor\xEDa en Cr\xE9dito","Asesor\xEDa en Ventas","Garant\xEDas","Entrega y armado","Venta online"];function steps(){$("#content-wp").html(`
+        <ul class="preguntas" id="preguntas">
+			<li class="msj animated fadeInLeft" id="select-pregunta"> <p>Por favor, indicanos \xBFa que \xE1rea va dirigida tu solicitud?</p> </li>
+        </ul>
+        <div id="vendedor"></div>
+    `);for(let i=0;i<=optionsChat.length-1;i++)$("#select-pregunta").append(`
+            <li id="options-${[i]}" value="${optionsChat[i]}">
+				<a href="https://wa.me/573228628652" target="_blank" id="chat+${this.id}">
+					${optionsChat[i]}
+				</a>
+               
+            </li>
+        `);for(let i=0;i<=optionsChat.length-1;i++){let div=document.getElementById(`options-${i}`);$(`#options-${i}`).one("click",function(){div.classList.contains("activo")?$(`#options-${i}`).removeClass("activo"):$(`#options-${i}`).addClass("activo")})}function scroll(){var scrolled=0;scrolled=scrolled+1300,$("#chat").animate({scrollTop:scrolled})}}function CambiarEstilo(){$("#chat").hasClass("chat")?($("#chat").addClass("whatsapp"),$("#chat").removeClass("chat"),cargar(),steps()):($("#chat").removeClass("whatsapp"),$("#chat").addClass("chat"))}function abrirNuevoTab(url2){var win=window.open(url2,"_blank");win.focus()}$("#click").click("click",()=>{abrirNuevoTab("https://wa.me/+573222490481")}),$(document).ready(function(){window.matchMedia("(min-width: 300px) and (max-width: 700px)").matches||($(".cajaTooltipRegistra").remove(),$(".popupwpjamar").remove(),$(".popupwpjamarpdc").remove(),$(".popupwpjamarpdcpopup").remove(),$(".popupwpjamarpdcpopup2").remove(),$(".popupwpjamarpdcpopup3").remove()),setTimeout(function(){$("#textPopdep").fadeOut()},3e3),setTimeout(function(){$(".cajaTooltipRegistra").removeClass("d-none")},1e4),setTimeout(function(){$(".cajaTooltipRegistra").fadeOut()},13e3),setTimeout(function(){$(".popupwpjamar").fadeIn()},14e3),setTimeout(function(){$(".popupwpjamar").fadeOut()},19e3),setTimeout(function(){$(".popupwpjamarpdc").fadeIn()},2e4),setTimeout(function(){$(".popupwpjamarpdc").fadeOut()},25e3)}),$(".closewpjamar").click(function(){$(".popupwpjamar").fadeOut(),$(".popupwpjamarpdc").fadeOut(),$(".popupwpjamarpdcpopup").fadeOut(),$(".popupwpjamarpdcpopup2").fadeOut(),$(".popupwpjamarpdcpopup3").fadeOut()}),$(".portaldelcliente .logo-click").click(function(){$(".popupwpjamar").remove(),$(".popupwpjamarpdc").fadeIn()}),$(".openpdcpopup").click(function(){$(".popupwpjamarpdc").fadeOut(),$(".popupwpjamarpdcpopup").fadeIn()}),$(".dotpdc1").click(function(){$(".popupwpjamarpdcpopup2").fadeOut(),$(".popupwpjamarpdcpopup3").fadeOut(),$(".popupwpjamarpdcpopup").fadeIn()}),$(".dotpdc2").click(function(){$(".popupwpjamarpdcpopup").fadeOut(),$(".popupwpjamarpdcpopup3").fadeOut(),$(".popupwpjamarpdcpopup2").fadeIn()}),$(".dotpdc3").click(function(){$(".popupwpjamarpdcpopup").fadeOut(),$(".popupwpjamarpdcpopup2").fadeOut(),$(".popupwpjamarpdcpopup3").fadeIn()});
+//# sourceMappingURL=/cdn/shop/t/577/assets/chat.js.map?v=160410746973059165611695333896
